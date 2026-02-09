@@ -1,0 +1,204 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { ArrowRight, CheckCircle } from "lucide-react";
+import SectionHeading from "@/components/ui/SectionHeading";
+import ServiceIcon from "@/components/ui/ServiceIcon";
+import Button from "@/components/ui/Button";
+import { services, programs } from "@/data/siteData";
+
+export default function WhatWeDoPage() {
+  return (
+    <>
+      {/* Page Header */}
+      <section className="bg-gradient-to-br from-green-dark to-green-darker py-20 lg:py-28 relative overflow-hidden">
+        <div className="absolute -top-20 -right-20 w-96 h-96 bg-green-primary/10 rounded-full blur-3xl" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="max-w-3xl"
+          >
+            <span className="text-green-light text-sm font-semibold tracking-wider uppercase">
+              What We Do
+            </span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white mt-2 mb-4">
+              Services & Programs
+            </h1>
+            <p className="text-lg text-neutral-300 leading-relaxed">
+              From training green entrepreneurs to connecting producers with
+              markets, we build the full ecosystem for inclusive green growth.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* All Services */}
+      <section className="py-20 lg:py-28 bg-white" id="services">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            subtitle="Our Services"
+            title="Comprehensive Green Economy Support"
+            description="We offer end-to-end support for green entrepreneurs — from skills training to market access."
+          />
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {services.map((service, index) => (
+              <motion.div
+                key={service.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: index * 0.08 }}
+                className="group bg-neutral-50 rounded-xl p-6 lg:p-8 hover:bg-white hover:shadow-xl transition-all duration-300 border border-transparent hover:border-green-primary/20"
+              >
+                <ServiceIcon icon={service.icon} size="lg" />
+                <h3 className="mt-5 text-xl font-bold font-heading text-neutral-900 group-hover:text-green-primary transition-colors">
+                  {service.title}
+                </h3>
+                <p className="mt-3 text-neutral-600 leading-relaxed text-sm">
+                  {service.description}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Our Approach */}
+      <section className="py-20 lg:py-28 bg-neutral-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <span className="text-green-primary text-sm font-semibold tracking-wider uppercase">
+                Our Approach
+              </span>
+              <h2 className="text-3xl lg:text-4xl font-bold font-heading text-neutral-900 mt-2 mb-6">
+                A Hybrid Model for Inclusive Growth
+              </h2>
+              <p className="text-neutral-600 leading-relaxed mb-6">
+                Wezesha Industries operates a unique hybrid business model that
+                combines social enterprise principles with market-driven
+                sustainability. We don&apos;t just train — we build ecosystems where
+                green entrepreneurs can thrive.
+              </p>
+
+              <div className="space-y-4">
+                {[
+                  "Training and upskilling in green production techniques",
+                  "Providing tools, workspace, and raw materials",
+                  "Connecting producers with buyers and distribution channels",
+                  "Building a community of practice and peer support",
+                  "Advocacy and movement building for systemic change",
+                  "Gender-centric approach ensuring women lead and benefit",
+                ].map((item) => (
+                  <div key={item} className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-primary shrink-0 mt-0.5" />
+                    <span className="text-neutral-700">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-green-primary/10 to-gold/10 border border-green-primary/20 flex items-center justify-center">
+                <div className="text-center p-8">
+                  <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-green-primary/20 flex items-center justify-center">
+                    <span className="text-4xl">♻️</span>
+                  </div>
+                  <p className="text-neutral-500 text-sm">
+                    Our approach image
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Programs */}
+      <section className="py-20 lg:py-28 bg-white" id="programs">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            subtitle="Our Programs"
+            title="Flagship Initiatives"
+            description="Impactful programs that drive community transformation."
+          />
+
+          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+            {programs.map((program, index) => (
+              <motion.div
+                key={program.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-white rounded-xl overflow-hidden border border-neutral-100 hover:shadow-xl transition-all duration-300"
+              >
+                <div className="aspect-[16/9] bg-gradient-to-br from-green-primary/10 to-green-dark/10 flex items-center justify-center">
+                  <span className="text-4xl">🌱</span>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold font-heading text-neutral-900 mb-3">
+                    {program.title}
+                  </h3>
+                  <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                    {program.description}
+                  </p>
+                  {program.target && (
+                    <p className="text-xs text-green-primary font-semibold">
+                      Target: {program.target}
+                    </p>
+                  )}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 lg:py-28 bg-green-dark text-white text-center">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
+            Ready to Go Green?
+          </h2>
+          <p className="text-neutral-300 text-lg mb-8">
+            Whether you want to learn, produce, trade, or partner — we have a
+            pathway for you.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button
+              href="/get-involved"
+              variant="gold"
+              size="lg"
+              icon={<ArrowRight className="w-5 h-5" />}
+              iconPosition="right"
+            >
+              Get Involved
+            </Button>
+            <Button
+              href="/contact"
+              variant="outline"
+              size="lg"
+              className="border-white text-white hover:bg-white hover:text-green-dark"
+            >
+              Contact Us
+            </Button>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
