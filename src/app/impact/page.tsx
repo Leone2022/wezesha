@@ -103,7 +103,7 @@ export default function ImpactPage() {
                     i === 1 || i === 6 ? "aspect-square" : "aspect-[4/3]"
                   } flex items-center justify-center`}
                 >
-                  <span className="text-3xl">📸</span>
+                  <img src="/images/gallery/wezeshalogo2@1.5x.png" alt="" className="w-12 h-auto opacity-20" />
                 </div>
               </motion.div>
             ))}
@@ -121,14 +121,11 @@ export default function ImpactPage() {
           />
 
           <div className="max-w-4xl mx-auto">
-            <div className="aspect-video rounded-2xl bg-neutral-900 overflow-hidden relative">
-              <iframe
-                src="https://www.youtube.com/embed/placeholder"
-                title="Untold Stories: Waste Harvesters of Bulawayo"
-                className="absolute inset-0 w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+            <div className="aspect-video rounded-2xl bg-gradient-to-br from-green-dark/10 to-green-primary/10 border border-green-primary/20 overflow-hidden flex items-center justify-center">
+              <div className="text-center p-8">
+                <img src="/images/gallery/wezeshalogo2@1.5x.png" alt="Wezesha Industries" className="w-24 h-auto mx-auto opacity-40 mb-4" />
+                <p className="text-neutral-500 text-sm font-medium">Documentary coming soon</p>
+              </div>
             </div>
           </div>
         </div>

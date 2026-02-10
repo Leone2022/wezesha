@@ -83,18 +83,12 @@ export default function ProductsPage() {
                   className="group bg-white rounded-xl overflow-hidden border border-neutral-100 hover:shadow-xl hover:border-green-primary/20 transition-all duration-300"
                 >
                   {/* Image */}
-                  <div className="aspect-square bg-gradient-to-br from-green-primary/10 to-green-dark/10 overflow-hidden relative">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-5xl">
-                        {product.id === "eco-broom"
-                          ? "🧹"
-                          : product.id === "bin-liners"
-                          ? "🛍️"
-                          : product.id === "refuse-bins"
-                          ? "🗑️"
-                          : "♻️"}
-                      </span>
-                    </div>
+                  <div className="aspect-square bg-gradient-to-br from-green-primary/5 to-green-dark/5 overflow-hidden relative">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="absolute inset-0 w-full h-full object-cover"
+                    />
                     {product.featured && (
                       <div className="absolute top-3 left-3">
                         <span className="bg-gold text-white text-xs font-bold px-3 py-1 rounded-full">
@@ -119,7 +113,7 @@ export default function ProductsPage() {
                     </p>
                     {product.impact && (
                       <p className="text-xs text-green-primary bg-green-primary/5 rounded-lg px-3 py-2 mb-4">
-                        🌱 {product.impact}
+                        {product.impact}
                       </p>
                     )}
                     {product.price && (

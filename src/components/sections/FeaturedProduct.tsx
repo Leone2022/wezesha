@@ -25,18 +25,12 @@ export default function FeaturedProduct() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-green-primary/10 to-green-dark/10 border border-green-primary/20 overflow-hidden flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-green-primary/20 flex items-center justify-center">
-                  <span className="text-4xl">🧹</span>
-                </div>
-                <p className="text-neutral-500 text-sm">
-                  Eco-Broom product image
-                </p>
-                <p className="text-neutral-400 text-xs mt-1">
-                  /public/images/products/eco-broom.jpg
-                </p>
-              </div>
+            <div className="aspect-square rounded-2xl overflow-hidden">
+              <img
+                src="/images/products/eco-broom.jpg"
+                alt="Wezesha Industries Eco-Broom"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
 

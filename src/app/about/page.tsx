@@ -13,7 +13,7 @@ import {
   Handshake,
   Leaf,
   Mail,
-  Linkedin,
+  LinkedinIcon,
 } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
@@ -92,13 +92,12 @@ export default function AboutPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-green-primary/10 to-green-dark/10 border border-green-primary/20 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-green-primary/20 flex items-center justify-center">
-                    <span className="text-4xl">🌍</span>
-                  </div>
-                  <p className="text-neutral-500 text-sm">Our story image</p>
-                </div>
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+                <img
+                  src="/images/gallery/company-story.jpg"
+                  alt="Wezesha Industries founding story"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </motion.div>
           </div>
@@ -327,7 +326,7 @@ export default function AboutPage() {
                           className="w-10 h-10 rounded-full bg-green-primary/10 flex items-center justify-center text-green-primary hover:bg-green-primary hover:text-white transition-colors"
                           aria-label={`${member.name} on LinkedIn`}
                         >
-                          <Linkedin className="w-5 h-5" />
+                          <LinkedinIcon className="w-5 h-5" />
                         </a>
                       )}
                       {member.email && (

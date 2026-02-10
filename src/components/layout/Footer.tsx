@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import {
-  Facebook,
-  Linkedin,
-  Youtube,
+  FacebookIcon,
+  LinkedinIcon,
+  YoutubeIcon,
   Mail,
   Phone,
   MapPin,
@@ -64,9 +64,11 @@ export default function Footer() {
           {/* About Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-green-primary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">W</span>
-              </div>
+              <img
+                src="/images/gallery/wezeshalogo2@1.5x.png"
+                alt="Wezesha Industries Logo"
+                className="h-10 w-auto"
+              />
               <div>
                 <span className="block text-lg font-bold font-heading leading-tight">
                   Wezesha Industries
@@ -88,7 +90,7 @@ export default function Footer() {
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-green-primary transition-colors"
                 aria-label="Follow us on Facebook"
               >
-                <Facebook className="w-5 h-5" />
+                <FacebookIcon className="w-5 h-5" />
               </a>
               <a
                 href={contactInfo.social.linkedin}
@@ -97,7 +99,7 @@ export default function Footer() {
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-green-primary transition-colors"
                 aria-label="Follow us on LinkedIn"
               >
-                <Linkedin className="w-5 h-5" />
+                <LinkedinIcon className="w-5 h-5" />
               </a>
               <a
                 href={contactInfo.social.youtube}
@@ -106,7 +108,7 @@ export default function Footer() {
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-green-primary transition-colors"
                 aria-label="Subscribe on YouTube"
               >
-                <Youtube className="w-5 h-5" />
+                <YoutubeIcon className="w-5 h-5" />
               </a>
             </div>
           </div>

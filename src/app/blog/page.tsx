@@ -107,7 +107,7 @@ export default function BlogPage() {
                   <Link href={`/blog/${post.slug}`}>
                     <div className="aspect-[16/10] bg-gradient-to-br from-green-primary/10 to-green-dark/10 overflow-hidden relative">
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-4xl">📰</span>
+                        <img src="/images/gallery/wezeshalogo2@1.5x.png" alt="" className="w-16 h-auto opacity-30" />
                       </div>
                       <div className="absolute top-3 left-3">
                         <span className="bg-green-primary text-white text-xs font-semibold px-3 py-1 rounded-full">

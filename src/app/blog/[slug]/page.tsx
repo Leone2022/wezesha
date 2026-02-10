@@ -73,7 +73,7 @@ export default function BlogPostPage() {
           <article className="prose prose-lg max-w-none">
             {/* Featured Image */}
             <div className="aspect-[16/9] rounded-2xl bg-gradient-to-br from-green-primary/10 to-green-dark/10 mb-10 flex items-center justify-center not-prose">
-              <span className="text-5xl">📰</span>
+              <img src="/images/gallery/wezeshalogo2@1.5x.png" alt="" className="w-24 h-auto opacity-30" />
             </div>
 
             <p className="text-xl text-neutral-700 leading-relaxed mb-8">
@@ -82,16 +82,22 @@ export default function BlogPostPage() {
 
             <div className="text-neutral-600 leading-relaxed space-y-6">
               <p>
-                This is a placeholder for the full article content. In a
-                production environment, this content would be fetched from a CMS
-                or markdown files. The blog system is set up with dynamic
-                routing and is ready for content integration.
-              </p>
-              <p>
                 Wezesha Industries continues to drive positive change in
                 Bulawayo&apos;s green economy, empowering women and youth through
                 innovative recycling programs and sustainable enterprise
                 development.
+              </p>
+              <p>
+                Through our community-driven approach, we are transforming waste
+                into wealth while creating dignified employment opportunities
+                for women and youth across Bulawayo&apos;s high-density suburbs.
+              </p>
+              <p>
+                Our work demonstrates that environmental sustainability and
+                economic empowerment go hand in hand. By training green
+                entrepreneurs and building inclusive value chains, we are
+                creating a model for community-led green economic transformation
+                that can be replicated across Zimbabwe and beyond.
               </p>
             </div>
           </article>

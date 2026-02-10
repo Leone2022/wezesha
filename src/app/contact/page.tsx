@@ -11,9 +11,9 @@ import {
   MapPin,
   Send,
   CheckCircle,
-  Facebook,
-  Linkedin,
-  Youtube,
+  FacebookIcon,
+  LinkedinIcon,
+  YoutubeIcon,
   Clock,
   User,
 } from "lucide-react";
@@ -128,17 +128,34 @@ export default function ContactPage() {
                       Email
                     </h3>
                     <a
-                      href={`mailto:${contactInfo.email}`}
-                      className="text-green-primary hover:underline text-sm"
+                      href="mailto:info@wezeshaindustries.com"
+                      className="text-green-primary hover:underline text-sm block"
                     >
-                      {contactInfo.email}
+                      info@wezeshaindustries.com
                     </a>
-                    <br />
                     <a
-                      href={`mailto:${contactInfo.contactPerson.email}`}
-                      className="text-green-primary hover:underline text-sm"
+                      href="mailto:admin@wezeshaindustries.com"
+                      className="text-green-primary hover:underline text-sm block"
                     >
-                      {contactInfo.contactPerson.email}
+                      admin@wezeshaindustries.com
+                    </a>
+                    <a
+                      href="mailto:marketing@wezeshaindustries.com"
+                      className="text-green-primary hover:underline text-sm block"
+                    >
+                      marketing@wezeshaindustries.com
+                    </a>
+                    <a
+                      href="mailto:wezeshaict@wezeshaindustries.com"
+                      className="text-green-primary hover:underline text-sm block"
+                    >
+                      wezeshaict@wezeshaindustries.com
+                    </a>
+                    <a
+                      href="mailto:wezeshahub@wezeshaindustries.com"
+                      className="text-green-primary hover:underline text-sm block"
+                    >
+                      wezeshahub@wezeshaindustries.com
                     </a>
                   </div>
                 </div>
@@ -204,7 +221,7 @@ export default function ContactPage() {
                   className="w-10 h-10 rounded-full bg-green-primary/10 flex items-center justify-center text-green-primary hover:bg-green-primary hover:text-white transition-colors"
                   aria-label="Facebook"
                 >
-                  <Facebook className="w-5 h-5" />
+                  <FacebookIcon className="w-5 h-5" />
                 </a>
                 <a
                   href={contactInfo.social.linkedin}
@@ -213,7 +230,7 @@ export default function ContactPage() {
                   className="w-10 h-10 rounded-full bg-green-primary/10 flex items-center justify-center text-green-primary hover:bg-green-primary hover:text-white transition-colors"
                   aria-label="LinkedIn"
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <LinkedinIcon className="w-5 h-5" />
                 </a>
                 <a
                   href={contactInfo.social.youtube}
@@ -222,7 +239,7 @@ export default function ContactPage() {
                   className="w-10 h-10 rounded-full bg-green-primary/10 flex items-center justify-center text-green-primary hover:bg-green-primary hover:text-white transition-colors"
                   aria-label="YouTube"
                 >
-                  <Youtube className="w-5 h-5" />
+                  <YoutubeIcon className="w-5 h-5" />
                 </a>
               </div>
             </div>

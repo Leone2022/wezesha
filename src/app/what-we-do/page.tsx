@@ -112,15 +112,12 @@ export default function WhatWeDoPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-green-primary/10 to-gold/10 border border-green-primary/20 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-green-primary/20 flex items-center justify-center">
-                    <span className="text-4xl">♻️</span>
-                  </div>
-                  <p className="text-neutral-500 text-sm">
-                    Our approach image
-                  </p>
-                </div>
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+                <img
+                  src="/images/gallery/our-approach.jpg"
+                  alt="Wezesha Industries hybrid approach"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </motion.div>
           </div>
@@ -147,7 +144,7 @@ export default function WhatWeDoPage() {
                 className="bg-white rounded-xl overflow-hidden border border-neutral-100 hover:shadow-xl transition-all duration-300"
               >
                 <div className="aspect-[16/9] bg-gradient-to-br from-green-primary/10 to-green-dark/10 flex items-center justify-center">
-                  <span className="text-4xl">🌱</span>
+                  <img src="/images/gallery/wezeshalogo2@1.5x.png" alt="" className="w-16 h-auto opacity-30" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold font-heading text-neutral-900 mb-3">

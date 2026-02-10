@@ -204,13 +204,12 @@ export default function GetInvolvedPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-green-primary/10 to-gold/10 border border-green-primary/20 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-green-primary/20 flex items-center justify-center">
-                    <span className="text-4xl">🤝</span>
-                  </div>
-                  <p className="text-neutral-500 text-sm">Membership image</p>
-                </div>
+              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-green-primary/10 to-gold/10 border border-green-primary/20 overflow-hidden flex items-center justify-center">
+                <img
+                  src="/images/gallery/wezeshalogo2@1.5x.png"
+                  alt="Wezesha Industries membership"
+                  className="w-2/3 h-auto object-contain opacity-80"
+                />
               </div>
             </motion.div>
           </div>
