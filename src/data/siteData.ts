@@ -137,7 +137,7 @@ export const products: Product[] = [
     shortDescription:
       "Handcrafted eco-friendly broom made from recycled PET bottles and local grass.",
     price: "Contact for pricing",
-    image: "/images/products/eco-broom.jpg",
+    image: "/images/products/ecobroom.jpg",
     category: "Cleaning",
     featured: true,
     impact:
@@ -170,7 +170,7 @@ export const products: Product[] = [
       "Sturdy refuse bins designed for community and household waste collection. Made with sustainability in mind, supporting proper waste segregation and management.",
     shortDescription:
       "Sturdy refuse bins for community and household waste collection.",
-    image: "/images/products/refuse-bins.jpg",
+    image: "/images/products/refusebins.jpg",
     category: "Waste Management",
   },
 ];

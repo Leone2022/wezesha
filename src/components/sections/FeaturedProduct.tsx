@@ -27,7 +27,7 @@ export default function FeaturedProduct() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
-                src="/images/products/eco-broom.jpg"
+                src="/images/products/ecobroom.jpg"
                 alt="Wezesha Industries Eco-Broom"
                 className="w-full h-full object-cover"
               />
