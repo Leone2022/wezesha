@@ -65,7 +65,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4">
               <img
-                src="/images/gallery/wezeshalogo2@1.5x.png"
+                src="/images/gallery/wezeshalogo2.png"
                 alt="Wezesha Industries Logo"
                 className="h-10 w-auto"
               />

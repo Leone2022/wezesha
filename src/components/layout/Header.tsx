@@ -86,7 +86,7 @@ export default function Header() {
               aria-label="Wezesha Industries — Home"
             >
               <img 
-                src="/images/gallery/wezeshalogo2@1.5x.png" 
+                src="/images/gallery/wezeshalogo2.png" 
                 alt="Wezesha Industries Logo" 
                 className="h-10 lg:h-12 w-auto"
               />

@@ -144,7 +144,7 @@ export default function WhatWeDoPage() {
                 className="bg-white rounded-xl overflow-hidden border border-neutral-100 hover:shadow-xl transition-all duration-300"
               >
                 <div className="aspect-[16/9] bg-gradient-to-br from-green-primary/10 to-green-dark/10 flex items-center justify-center">
-                  <img src="/images/gallery/wezeshalogo2@1.5x.png" alt="" className="w-16 h-auto opacity-30" />
+                  <img src="/images/gallery/wezeshalogo2.png" alt="" className="w-16 h-auto opacity-30" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold font-heading text-neutral-900 mb-3">

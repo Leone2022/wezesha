@@ -73,7 +73,7 @@ export default function BlogPostPage() {
           <article className="prose prose-lg max-w-none">
             {/* Featured Image */}
             <div className="aspect-[16/9] rounded-2xl bg-gradient-to-br from-green-primary/10 to-green-dark/10 mb-10 flex items-center justify-center not-prose">
-              <img src="/images/gallery/wezeshalogo2@1.5x.png" alt="" className="w-24 h-auto opacity-30" />
+              <img src="/images/gallery/wezeshalogo2.png" alt="" className="w-24 h-auto opacity-30" />
             </div>
 
             <p className="text-xl text-neutral-700 leading-relaxed mb-8">

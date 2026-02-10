@@ -206,7 +206,7 @@ export default function GetInvolvedPage() {
             >
               <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-green-primary/10 to-gold/10 border border-green-primary/20 overflow-hidden flex items-center justify-center">
                 <img
-                  src="/images/gallery/wezeshalogo2@1.5x.png"
+                  src="/images/gallery/wezeshalogo2.png"
                   alt="Wezesha Industries membership"
                   className="w-2/3 h-auto object-contain opacity-80"
                 />
