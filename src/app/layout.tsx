@@ -86,6 +86,69 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://wezeshaindustries.com/#organization",
+      name: "Wezesha Industries",
+      alternateName: "The Above Ground Mining Project",
+      url: "https://wezeshaindustries.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://wezeshaindustries.com/icon-512.png",
+        width: 512,
+        height: 512,
+      },
+      description:
+        "Social enterprise empowering women and youth through inclusive, gender-centric green entrepreneurship in Bulawayo, Zimbabwe.",
+      foundingDate: "2013",
+      founder: {
+        "@type": "Person",
+        name: "Sinqobile Ndlovu",
+      },
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Kelvin North, Westondale",
+        addressLocality: "Bulawayo",
+        addressCountry: "ZW",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+263-77-280-9498",
+        email: "info@wezeshaindustries.com",
+        contactType: "customer service",
+      },
+      sameAs: [
+        "https://facebook.com/wezeshaindustries",
+        "https://linkedin.com/company/wezeshaindustries",
+        "https://youtube.com/@wezeshaindustries",
+      ],
+      areaServed: {
+        "@type": "Country",
+        name: "Zimbabwe",
+      },
+      knowsAbout: [
+        "Recycling",
+        "Green Economy",
+        "Women Empowerment",
+        "Circular Economy",
+        "Sustainable Development",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://wezeshaindustries.com/#website",
+      url: "https://wezeshaindustries.com",
+      name: "Wezesha Industries",
+      publisher: {
+        "@id": "https://wezeshaindustries.com/#organization",
+      },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -93,6 +156,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <link rel="manifest" href="/manifest.webmanifest" />
+        <meta name="theme-color" content="#2E5F3D" />
+      </head>
       <body
         className={`${inter.variable} ${poppins.variable} antialiased bg-white text-neutral-900`}
       >
