@@ -65,14 +65,6 @@ export const metadata: Metadata = {
       "Empowering communities through green innovation in Bulawayo, Zimbabwe.",
     images: ["/images/og-image.jpg"],
   },
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "32x32" },
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
-  },
   robots: {
     index: true,
     follow: true,
