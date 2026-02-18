@@ -7,6 +7,7 @@ import {
   Calendar,
   Globe,
   GraduationCap,
+  Recycle,
 } from "lucide-react";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -14,6 +15,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   calendar: Calendar,
   globe: Globe,
   "graduation-cap": GraduationCap,
+  recycle: Recycle,
 };
 
 interface StatCounterProps {

@@ -28,7 +28,7 @@ export const siteConfig = {
 export const navLinks: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
-  { label: "What We Do", href: "/what-we-do" },
+  { label: "What We Do – Our Services", href: "/what-we-do" },
   { label: "Products", href: "/products" },
   { label: "Our Impact", href: "/impact" },
   { label: "Get Involved", href: "/get-involved" },
@@ -40,26 +40,32 @@ export const impactStats: StatItem[] = [
   {
     value: 125,
     suffix: "+",
-    label: "Members in Green Production Hubs",
+    label: "Active members of our green production hubs",
     icon: "users",
   },
   {
     value: 10,
     suffix: "+",
-    label: "Years of Impact",
+    label: "Years of inclusive impact",
     icon: "calendar",
   },
   {
-    value: 6000,
+    value: 7000,
     suffix: "+",
-    label: "People Reached Through Programs",
+    label: "People reached directly through our programs",
     icon: "globe",
   },
   {
-    value: 120,
+    value: 250,
     suffix: "+",
-    label: "Trained in Green Skills",
+    label: "Women & youths trained in green skills",
     icon: "graduation-cap",
+  },
+  {
+    value: 30000,
+    suffix: "+",
+    label: "PET bottles diverted from landfill & converted into green products",
+    icon: "recycle",
   },
 ];
 
@@ -68,14 +74,14 @@ export const services: ServiceItem[] = [
   {
     title: "PET Recycling & Eco-Broom Production Training",
     description:
-      "Hands-on vocational training in turning recycled PET plastic waste into marketable eco-brooms — a practical skill that creates dignified green livelihoods.",
+      "We provide technical, green skills training that equips participants with the skills to upcycle PET plastic waste into innovative products.",
     icon: "leaf",
     href: "/what-we-do#eco-broom",
   },
   {
     title: "Paper Recycling & Beadwork Innovation Training",
     description:
-      "Creative technical training in recycling paper waste and transforming it into beadwork and innovative craft products with real market value.",
+      "We provide technical, green skills training that equips participants with the skills to upcycle metal and paper waste into innovative products.",
     icon: "recycle",
     href: "/what-we-do#paper-recycling",
   },
@@ -90,21 +96,21 @@ export const services: ServiceItem[] = [
   {
     title: "Green Hustler-Preneur Training",
     description:
-      "Fast-tracks the launch of green business models (MVPs), helping women and youth transition from 'wanna-preneurs' to 'hustler-preneurs' with reduced capital risk.",
+      "Empowering individuals with skills to launch and grow green businesses that contribute to a circular economy.",
     icon: "sprout",
     href: "/what-we-do#training",
   },
   {
-    title: "Recycling as a Business",
+    title: "Recycling as a Business Training",
     description:
-      "Teaches communities how to transform waste into valuable products and sustainable income streams, reframing recycling as a serious business sector.",
+      "Empowering individuals with a green entrepreneurial mindset and resources to help them take up opportunities in the recycling value chain in a manner that is decent, gainful, safe and professional.",
     icon: "briefcase",
     href: "/what-we-do#recycling",
   },
   {
-    title: "Green Business Incubation & Mentorship",
+    title: "Green Business Acceleration, Incubation & Mentorship",
     description:
-      "Acts as a 'nursery' for early-stage start-ups, offering structural foundation and one-on-one mentorship necessary to survive the fragile initial phases of business.",
+      "We offer custom trainings and handhold emerging and aspiring green entrepreneurs to rapid test and launch MVPs (basic, low cost business models).",
     icon: "handshake",
     href: "/what-we-do#mentorship",
   },
@@ -118,14 +124,14 @@ export const services: ServiceItem[] = [
   {
     title: "Ecosystem & Green Movement Building",
     description:
-      "Building a collective force of green economy advocates and practitioners across Zimbabwe, integrating emerging enterprises into resilient, sustainable value chains.",
+      "We connect with shadow and mainstream players in order to collaboratively create a conducive environment for green entrepreneurship.",
     icon: "megaphone",
     href: "/what-we-do#movement",
   },
   {
-    title: "Environmental Management & Consultancy",
+    title: "Environmental Management Trainings & Consultancy",
     description:
-      "Expert advisory services and technical support on environmental management, green skills programming, and building sustainable inclusive green value chains.",
+      "We provide custom trainings and consultancy services that help businesses to comply with environmental legal requirements, and/or to reach sustainability targets.",
     icon: "file-text",
     href: "/what-we-do#consultancy",
   },
@@ -140,7 +146,7 @@ export const products: Product[] = [
     shortDescription:
       "Handcrafted eco-friendly broom made from recycled PET bottles and local grass.",
     price: "Contact for pricing",
-    image: "/images/products/ecobroom.jpg",
+    image: "/images/gallery/boom.jpg.jpg",
     category: "Home & Lifestyle",
     featured: true,
     impact:
@@ -150,27 +156,27 @@ export const products: Product[] = [
     id: "decorative-cushions",
     name: "Decorative Cushions & Soft Furnishings",
     description:
-      "Beautiful, functional home décor items — decorative cushions and soft furnishings all handcrafted from upcycled PET plastic waste. Each piece transforms environmental challenges into aesthetic assets for your home.",
+      "We put a green spin on the usual bean bag cushions and ottomans. Our soft furnishings offer the ultimate luxury while helping to divert plastic from the landfill. Our soft furnishings are made to order. Available in Small (Ottomans), Junior size, Large size, XL and custom size.",
     shortDescription:
       "Handcrafted cushions and soft furnishings made from upcycled PET waste.",
     price: "Contact for pricing",
-    image: "/images/products/ecobroom.jpg",
+    image: "/images/gallery/wese.jpg",
     category: "Home & Lifestyle",
     impact:
-      "Diverts PET plastic from landfills and supports women artisans in our production hubs.",
+      "60-150 PET plastic bottles diverted per item. Women and Youth made. 100% Eco-friendly.",
   },
   {
     id: "designer-lamps",
     name: "Designer Lamps & Lamp Shades",
     description:
-      "Distinctive interior décor pieces — designer lamps and lamp shades crafted from upcycled metal and paper waste. Each piece is unique, functional, and tells a story of transformation from waste to beauty.",
+      "Our latest innovation includes a range of Lamp shades and interior décor pieces skilfully crafted from upcycled paper and metals to help make your space stand out.",
     shortDescription:
       "Unique lamps and lamp shades from upcycled metal and paper waste.",
     price: "Contact for pricing",
-    image: "/images/products/plasticware.jpg",
+    image: "/images/gallery/bottledesigns.jpg.jpeg",
     category: "Interior Décor",
     impact:
-      "Transforms metal and paper waste into premium home décor, supporting green artisans.",
+      "Women and Youth made. Made from recyclable materials.",
   },
   {
     id: "upcycled-mirrors",
@@ -180,7 +186,7 @@ export const products: Product[] = [
     shortDescription:
       "Designer mirrors with upcycled metal and paper waste frames.",
     price: "Contact for pricing",
-    image: "/images/products/plasticware.jpg",
+    image: "/images/gallery/productsposter.jpg.jpg",
     category: "Interior Décor",
     impact:
       "Repurposes metal and paper waste into premium interior décor pieces.",
@@ -193,7 +199,7 @@ export const products: Product[] = [
     shortDescription:
       "Art supplies crafted from upcycled waste — creativity meets sustainability.",
     price: "Contact for pricing",
-    image: "/images/products/bin-liners.jpg",
+    image: "/images/gallery/crafting.jpg.jpg",
     category: "Creative & Educational",
     impact:
       "Transforms waste into creative tools that inspire young people to think sustainably.",
@@ -206,7 +212,7 @@ export const products: Product[] = [
     shortDescription:
       "Educational board game teaching climate literacy and green economy principles.",
     price: "Contact for pricing",
-    image: "/images/products/bin-liners.jpg",
+    image: "/images/gallery/trainingpic.jpg.jpg",
     category: "Creative & Educational",
     impact:
       "Builds environmental awareness and climate literacy in schools and communities.",
@@ -248,7 +254,7 @@ export const teamMembers: TeamMember[] = [
     name: "Sinqobile Ndlovu",
     role: "Founder & Executive Director",
     bio: "Sinqobile is a passionate social entrepreneur, green economy advocate, and Bertha Scholar for Social Innovation & Entrepreneurship (University of Cape Town). She founded Wezesha Industries after over a decade of working with informal waste-pickers, co-creating the 'Above Ground Miners' identity that transformed a community's self-perception and economic trajectory. Her mission: to ensure that the least powerful can operate alongside the most powerful economic players.",
-    image: "/images/team/sinqobile-ndlovu.jpg",
+    image: "/images/gallery/groupphoto.jpg.jpg",
     linkedin: "https://www.linkedin.com/in/sinqobile-ndlovu",
     email: "admin@wezeshaindustries.com",
   },
@@ -373,7 +379,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "How recycled PET bottles and local grass are being transformed into a sustainable household product that empowers women in Bulawayo.",
     content: "",
-    image: "/images/blog/eco-broom-story.jpg",
+    image: "/images/gallery/makingbroom.jpg.jpg",
     date: "2024-03-15",
     author: "Sinqobile Ndlovu",
     category: "Success Stories",
@@ -386,7 +392,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Exploring how young Zimbabweans are finding opportunity and purpose through green entrepreneurship and the circular economy.",
     content: "",
-    image: "/images/blog/youth-green-economy.jpg",
+    image: "/images/gallery/trainingphoto.jpg.jpg",
     date: "2024-02-28",
     author: "Sinqobile Ndlovu",
     category: "Green Economy",
@@ -399,7 +405,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Our annual schools competition is back, challenging students to innovate with waste and discover the value in what we discard.",
     content: "",
-    image: "/images/blog/treasure-in-trash.jpg",
+    image: "/images/gallery/girlpickinglitter.jpg.jpg",
     date: "2024-01-20",
     author: "Wezesha Team",
     category: "Events",

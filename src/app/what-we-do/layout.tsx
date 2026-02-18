@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "What We Do — Green Training, Incubation & Consultancy",
+  title: "What We Do – Our Services — Green Training, Incubation & Consultancy",
   description:
     "Wezesha Industries offers green technical skills training, business incubation, and environmental consultancy in Bulawayo. PET recycling, beadwork, agro-value addition, and more.",
   keywords: [

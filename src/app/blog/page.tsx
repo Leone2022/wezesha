@@ -39,7 +39,7 @@ export default function BlogPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-3xl"
+            className="max-w-3xl mx-auto text-center"
           >
             <span className="text-green-light text-sm font-semibold tracking-wider uppercase">
               Blog
@@ -105,10 +105,12 @@ export default function BlogPage() {
                   className="group bg-white rounded-xl overflow-hidden border border-neutral-100 hover:shadow-xl hover:border-green-primary/20 transition-all duration-300"
                 >
                   <Link href={`/blog/${post.slug}`}>
-                    <div className="aspect-[16/10] bg-gradient-to-br from-green-primary/10 to-green-dark/10 overflow-hidden relative">
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <img src="/images/gallery/wezeshalogo2.png" alt="" className="w-16 h-auto opacity-30" />
-                      </div>
+                    <div className="aspect-[16/10] overflow-hidden relative">
+                      <img 
+                        src={post.image} 
+                        alt={post.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                       <div className="absolute top-3 left-3">
                         <span className="bg-green-primary text-white text-xs font-semibold px-3 py-1 rounded-full">
                           {post.category}

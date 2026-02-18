@@ -118,7 +118,7 @@ export default function GetInvolvedPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-3xl"
+            className="max-w-3xl mx-auto text-center"
           >
             <span className="text-green-light text-sm font-semibold tracking-wider uppercase">
               Get Involved

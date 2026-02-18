@@ -25,7 +25,7 @@ export default function TestimonialsSection() {
         <SectionHeading
           subtitle="Testimonials"
           title="Voices of Impact"
-          description="Hear from the people whose lives have been transformed through our green economy programs."
+          description="See profile for examples"
         />
 
         {/* Desktop: Grid */}

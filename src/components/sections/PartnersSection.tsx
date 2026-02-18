@@ -6,12 +6,12 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 export default function PartnersSection() {
   return (
-    <section className="py-16 lg:py-24 bg-white" aria-label="Partners">
+    <section className="py-16 lg:py-24 bg-white" aria-label="Supporters">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          subtitle="Our Partners"
-          title="Trusted By Leading Organisations"
-          description="We collaborate with partners who share our vision for a green and inclusive future."
+          subtitle="Our Supporters"
+          title="Our Journey has been supported by the following leading organisations"
+          description="We collaborate with supporters who share our vision for a green and inclusive future."
         />
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 lg:gap-8">

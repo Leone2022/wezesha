@@ -72,8 +72,12 @@ export default function BlogPostPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <article className="prose prose-lg max-w-none">
             {/* Featured Image */}
-            <div className="aspect-[16/9] rounded-2xl bg-gradient-to-br from-green-primary/10 to-green-dark/10 mb-10 flex items-center justify-center not-prose">
-              <img src="/images/gallery/wezeshalogo2.png" alt="" className="w-24 h-auto opacity-30" />
+            <div className="aspect-[16/9] rounded-2xl overflow-hidden mb-10 not-prose">
+              <img 
+                src={post.image} 
+                alt={post.title}
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <p className="text-xl text-neutral-700 leading-relaxed mb-8">

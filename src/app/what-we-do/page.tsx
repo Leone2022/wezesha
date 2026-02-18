@@ -18,10 +18,10 @@ export default function WhatWeDoPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-3xl"
+            className="max-w-3xl mx-auto text-center"
           >
             <span className="text-green-light text-sm font-semibold tracking-wider uppercase">
-              What We Do
+              What We Do – Our Services
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white mt-2 mb-4">
               Services & Programs
@@ -39,8 +39,8 @@ export default function WhatWeDoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             subtitle="Our Services"
-            title="Comprehensive Green Economy Support"
-            description="We offer end-to-end support for green entrepreneurs — from skills training to market access."
+            title="Securing green, gainful and gender-centric livelihoods"
+            description="Through green manufacturing, training, mentorship and incubation we empower differently-abled women and youths to monetise green skills and to make climate action part of every day life."
           />
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
@@ -122,7 +122,7 @@ export default function WhatWeDoPage() {
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden">
                 <img
-                  src="/images/gallery/our-approach.jpg"
+                  src="/images/gallery/training.jpg"
                   alt="Wezesha Industries hybrid approach"
                   className="w-full h-full object-cover"
                 />

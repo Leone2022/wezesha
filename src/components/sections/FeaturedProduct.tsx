@@ -9,13 +9,13 @@ export default function FeaturedProduct() {
   return (
     <section
       className="py-20 lg:py-28 bg-neutral-50"
-      aria-label="Featured product"
+      aria-label="Featured products"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          subtitle="Featured Product"
+          subtitle="Featured Products"
           title="The Eco-Broom"
-          description="Our flagship product that transforms waste into wealth."
+          description="Our flagship product – The broom that empowers with every sweep!"
         />
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -27,7 +27,7 @@ export default function FeaturedProduct() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
-                src="/images/products/ecobroom.jpg"
+                src="/images/gallery/boom.jpg.jpg"
                 alt="Wezesha Industries Eco-Broom"
                 className="w-full h-full object-cover"
               />
@@ -44,11 +44,10 @@ export default function FeaturedProduct() {
               Handcrafted from Recycled Materials
             </h3>
             <p className="text-neutral-600 text-lg leading-relaxed mb-8">
-              Our signature Eco-Broom is handcrafted from recycled PET bottles
-              and locally sourced grass. Each broom diverts plastic waste from
-              landfills while providing dignified employment to women in our
-              production hubs. Built to last, gentle on surfaces, and kind to
-              the planet.
+              Our signature Eco-Broom is handcrafted from upcycled PET bottles.
+              Each broom diverts plastic waste from landfills while providing
+              dignified employment to members of our green production hubs.
+              Built to last, gentle on surfaces, and kind to the planet.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -58,10 +57,10 @@ export default function FeaturedProduct() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-neutral-900">
-                    15+ PET Bottles Diverted
+                    15-20 PET Bottles Diverted per Eco-broom
                   </h4>
                   <p className="text-sm text-neutral-500">
-                    Each broom recycles approximately 15 plastic bottles from
+                    Each broom recycles approximately 15-20 plastic bottles from
                     landfills.
                   </p>
                 </div>
@@ -71,9 +70,9 @@ export default function FeaturedProduct() {
                   <Heart className="w-5 h-5 text-green-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-neutral-900">Women-Made</h4>
+                  <h4 className="font-semibold text-neutral-900">Women and Youth Made</h4>
                   <p className="text-sm text-neutral-500">
-                    Every purchase directly supports a woman artisan in Bulawayo.
+                    Every purchase directly supports a local artisan.
                   </p>
                 </div>
               </div>
@@ -86,7 +85,7 @@ export default function FeaturedProduct() {
                     100% Eco-Friendly
                   </h4>
                   <p className="text-sm text-neutral-500">
-                    Made from sustainable, locally sourced materials.
+                    Made from sustainable, recyclable materials.
                   </p>
                 </div>
               </div>

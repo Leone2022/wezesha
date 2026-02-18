@@ -30,7 +30,7 @@ export default function AboutPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-3xl"
+            className="max-w-3xl mx-auto text-center"
           >
             <span className="text-green-light text-sm font-semibold tracking-wider uppercase">
               About Us
@@ -88,6 +88,12 @@ export default function AboutPage() {
                   innovative green products while teaching communities to do the
                   same.
                 </p>
+                <p>
+                  We do this by helping women and youths to develop and monetise green skills.
+                </p>
+                <p>
+                  Our products help communities make climate action a fashionable part of everyday life.
+                </p>
               </div>
             </motion.div>
 
@@ -99,7 +105,7 @@ export default function AboutPage() {
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden">
                 <img
-                  src="/images/gallery/company-story.jpg"
+                  src="/images/gallery/about.jpg"
                   alt="Wezesha Industries founding story"
                   className="w-full h-full object-cover"
                 />

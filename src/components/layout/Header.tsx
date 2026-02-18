@@ -43,7 +43,7 @@ export default function Header() {
       <div className="hidden lg:block bg-green-dark text-white text-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-10">
           <p className="text-neutral-200">
-            Seedbed for tomorrow&apos;s green and inclusive industries
+            The seedbed for tomorrow&apos;s green and inclusive industries.
           </p>
           <div className="flex items-center gap-6">
             <a
