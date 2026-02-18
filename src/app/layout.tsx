@@ -27,6 +27,14 @@ export const metadata: Metadata = {
   },
   description:
     "Wezesha Industries empowers women and youth through inclusive, gender-centric green entrepreneurship. We recycle, train, and build sustainable livelihoods in Bulawayo, Zimbabwe.",
+  icons: {
+    icon: [
+      { url: "/icon.jpg", type: "image/jpeg" },
+    ],
+    apple: [
+      { url: "/apple-icon.jpg", type: "image/jpeg" },
+    ],
+  },
   keywords: [
     "Wezesha Industries",
     "green economy Zimbabwe",
@@ -93,9 +101,9 @@ const jsonLd = {
       url: "https://wezeshaindustries.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://wezeshaindustries.com/icon-512.png",
-        width: 512,
-        height: 512,
+        url: "https://wezeshaindustries.com/icon.jpg",
+        width: 192,
+        height: 192,
       },
       description:
         "Social enterprise empowering women and youth through inclusive, gender-centric green entrepreneurship in Bulawayo, Zimbabwe.",
