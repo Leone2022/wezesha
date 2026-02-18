@@ -186,6 +186,19 @@ export const products: Product[] = [
       "Repurposes metal and paper waste into premium interior décor pieces.",
   },
   {
+    id: "art-supplies",
+    name: "Upcycled Art Supplies",
+    description:
+      "Creative art supplies crafted from upcycled waste materials, designed to inspire young artists while teaching them about sustainability. Perfect for schools, art classes, and community programmes.",
+    shortDescription:
+      "Art supplies crafted from upcycled waste — creativity meets sustainability.",
+    price: "Contact for pricing",
+    image: "/images/products/bin-liners.jpg",
+    category: "Creative & Educational",
+    impact:
+      "Transforms waste into creative tools that inspire young people to think sustainably.",
+  },
+  {
     id: "climate-board-game",
     name: "Climate Literacy Board Game",
     description:
@@ -261,6 +274,13 @@ export const testimonials: Testimonial[] = [
       "This was very eye opening. I never thought there is income from rubbish and that there are people who depend on waste picking to feed their families!",
     author: "Female Student",
     role: "Treasure in Trash Competition Participant",
+    location: "Bulawayo",
+  },
+  {
+    quote:
+      "I normally wait for buyers or walk long distances in search for markets. My products are bulky. After walking the whole day, I end up selling to whoever offers me whatever amount. Wezesha changed that.",
+    author: "Male Youth Exhibitor",
+    role: "Green Producer",
     location: "Bulawayo",
   },
   {

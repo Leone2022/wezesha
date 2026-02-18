@@ -209,6 +209,56 @@ export default function AboutPage() {
             </motion.div>
           </div>
 
+          {/* The Wezesha Growth Model */}
+          <div className="mb-20">
+            <SectionHeading
+              subtitle="How We Work"
+              title="The Wezesha Growth Model"
+              description="We operate at three levels — fast-tracking launches, nurturing start-ups, and scaling innovations."
+            />
+            <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+              {[
+                {
+                  number: "01",
+                  title: "The Catalyst",
+                  description:
+                    "We fast-track the launch of green business models (MVPs), helping women and youth transition from 'wanna-preneurs' to 'hustler-preneurs' with increased speed and reduced capital risk.",
+                },
+                {
+                  number: "02",
+                  title: "The Incubator",
+                  description:
+                    "We act as a 'nursery' for early-stage start-ups, offering the structural foundation and mentorship necessary to survive the fragile initial phases of business.",
+                },
+                {
+                  number: "03",
+                  title: "The Accelerator",
+                  description:
+                    "We scale grassroots innovations into market-ready products, integrating emerging enterprises into resilient, sustainable value chains.",
+                },
+              ].map((item, index) => (
+                <motion.div
+                  key={item.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="bg-neutral-50 rounded-xl p-8 border border-neutral-100 hover:shadow-lg hover:bg-white transition-all duration-300"
+                >
+                  <span className="text-5xl font-extrabold font-heading text-green-primary/20">
+                    {item.number}
+                  </span>
+                  <h4 className="text-xl font-bold font-heading text-neutral-900 mt-2 mb-3">
+                    {item.title}
+                  </h4>
+                  <p className="text-neutral-600 text-sm leading-relaxed">
+                    {item.description}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+
           {/* Values */}
           <SectionHeading
             subtitle="Our Values"

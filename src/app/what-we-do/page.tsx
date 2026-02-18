@@ -83,20 +83,20 @@ export default function WhatWeDoPage() {
                 A Hybrid Model for Inclusive Growth
               </h2>
               <p className="text-neutral-600 leading-relaxed mb-6">
-                Wezesha Industries operates a unique hybrid business model that
-                combines social enterprise principles with market-driven
-                sustainability. We don&apos;t just train — we build ecosystems where
-                green entrepreneurs can thrive.
+                We dismantle traditional economic barriers by commercialising
+                prototypes and providing specialised technical capacity building.
+                We are dedicated to transitioning informal players and aspiring
+                entrepreneurs into formal, resilient enterprises.
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-4 mb-8">
                 {[
-                  "Training and upskilling in green production techniques",
-                  "Providing tools, workspace, and raw materials",
-                  "Connecting producers with buyers and distribution channels",
-                  "Building a community of practice and peer support",
-                  "Advocacy and movement building for systemic change",
-                  "Gender-centric approach ensuring women lead and benefit",
+                  "Fast-track green business model launches (MVPs) with reduced capital risk",
+                  "Provide hands-on vocational training in PET recycling, beadwork, and agro-value addition",
+                  "Incubate early-stage start-ups through the fragile initial phases",
+                  "Connect producers to formal markets, bypassing exploitative middlemen",
+                  "Build ecosystems and green movements for systemic change",
+                  "Gender-centric design ensuring women and youth lead and benefit",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-primary shrink-0 mt-0.5" />
@@ -104,6 +104,14 @@ export default function WhatWeDoPage() {
                   </div>
                 ))}
               </div>
+
+              <blockquote className="border-l-4 border-green-primary pl-5 text-neutral-600 italic text-sm leading-relaxed">
+                &ldquo;The Wezesha business model is an economic prototype of a hybrid
+                economy that embraces the traditional with the modern, the small
+                scale and the big scale, the informal and the formal. The Wezesha
+                model allows the least powerful to operate alongside the most
+                powerful economic players.&rdquo;
+              </blockquote>
             </motion.div>
 
             <motion.div
