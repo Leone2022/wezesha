@@ -60,28 +60,33 @@ export default function AboutPage() {
                 The Beginning
               </span>
               <h2 className="text-3xl lg:text-4xl font-bold font-heading text-neutral-900 mt-2 mb-6">
-                A Vision Born from Community Need
+                From Waste Collectors to Green Catalysts
               </h2>
               <div className="space-y-4 text-neutral-600 leading-relaxed">
                 <p>
-                  Wezesha Industries was born in 2013 from a simple observation:
-                  communities in Bulawayo&apos;s high-density suburbs were surrounded
-                  by waste that could be transformed into value. Founded by
-                  Sinqobile Ndlovu, what started as an informal community
-                  recycling initiative has grown into a registered social
-                  enterprise driving green economic transformation.
+                  Wezesha Industries began in 2013 as The Recycling Middlemen
+                  (TRM), a for-profit waste collection enterprise in Bulawayo.
+                  By 2015, TRM had grown into one of the city&apos;s largest formal
+                  suppliers of cardboard and plastic. But behind that success
+                  was an uncomfortable truth: the industry was built on an
+                  invisible, exploited network of informal waste-pickers.
                 </p>
                 <p>
-                  The name &ldquo;Wezesha&rdquo; means &ldquo;to empower&rdquo; in Swahili — and that&apos;s
-                  exactly what we do. We empower women and youth to see waste
-                  not as a problem, but as a resource; not as trash, but as
-                  treasure.
+                  That turning point led founder Sinqobile Ndlovu to the
+                  University of Cape Town as a Bertha Scholar for Social
+                  Innovation. Living and working alongside waste-pickers, she
+                  helped co-create a new identity — &ldquo;Above Ground Miners&rdquo; —
+                  that reflected their true economic value. This sparked the
+                  evolution into The Above Ground Mining Project (TAGMP), and
+                  ultimately into Wezesha Industries in 2022.
                 </p>
                 <p>
-                  Today, also trading as &ldquo;The Above Ground Mining Project,&rdquo; we
-                  operate green production hubs, train green entrepreneurs, and
-                  build a movement that is reshaping how Zimbabwe thinks about
-                  waste, work, and wealth.
+                  &ldquo;Wezesha&rdquo; — a KiSwahili word meaning &lsquo;To Empower&rsquo; — captures
+                  our mission perfectly. Today, trading as <em>The Above Ground
+                  Mining Project</em> and <em>Eco-preneur Hub</em>, we are a green
+                  transition catalyst, incubator, and accelerator that produces
+                  innovative green products while teaching communities to do the
+                  same.
                 </p>
               </div>
             </motion.div>
@@ -177,10 +182,10 @@ export default function AboutPage() {
                 Our Mission
               </h3>
               <p className="text-neutral-200 leading-relaxed">
-                To empower women and youth through inclusive, decent,
-                gender-centric green entrepreneurship — creating sustainable
-                livelihoods from waste and building a circular economy from the
-                ground up.
+                &ldquo;To build resilient communities by facilitating access to
+                inclusive, decent, and gender-centric entrepreneurship
+                opportunities, positioning women and youth as the primary
+                engines of green value chains.&rdquo;
               </p>
             </motion.div>
 
@@ -198,9 +203,8 @@ export default function AboutPage() {
                 Our Vision
               </h3>
               <p className="text-white/90 leading-relaxed">
-                To be the seedbed for tomorrow&apos;s green and inclusive
-                industries — where every community member has the opportunity
-                to participate in and benefit from a thriving green economy.
+                &ldquo;To empower communities to make climate action part of
+                everyday life.&rdquo;
               </p>
             </motion.div>
           </div>

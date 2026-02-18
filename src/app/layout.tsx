@@ -85,7 +85,11 @@ const jsonLd = {
       "@type": "Organization",
       "@id": "https://wezeshaindustries.com/#organization",
       name: "Wezesha Industries",
-      alternateName: "The Above Ground Mining Project",
+      alternateName: [
+        "The Above Ground Mining Project",
+        "Eco-preneur Hub",
+        "TAGMP",
+      ],
       url: "https://wezeshaindustries.com",
       logo: {
         "@type": "ImageObject",
@@ -102,7 +106,8 @@ const jsonLd = {
       },
       address: {
         "@type": "PostalAddress",
-        streetAddress: "Kelvin North, Westondale",
+        streetAddress:
+          "Stand Number 2579Bt, Scout Hall, 9th Avenue Extension, S. Parirenyatwa",
         addressLocality: "Bulawayo",
         addressCountry: "ZW",
       },
@@ -113,9 +118,9 @@ const jsonLd = {
         contactType: "customer service",
       },
       sameAs: [
-        "https://facebook.com/wezeshaindustries",
-        "https://linkedin.com/company/wezeshaindustries",
-        "https://youtube.com/@wezeshaindustries",
+        "https://www.facebook.com/WezeshaIndustries/",
+        "https://www.linkedin.com/company/wezesha-industries/",
+        "https://www.youtube.com/@abovegroundmining5010",
       ],
       areaServed: {
         "@type": "Country",

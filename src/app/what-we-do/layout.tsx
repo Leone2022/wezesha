@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "What We Do — Services & Programs",
+  title: "What We Do — Green Training, Incubation & Consultancy",
   description:
-    "Discover Wezesha Industries' services — green entrepreneur training, recycling, eco-broom production, mentorship, market linkages, and flagship community programs.",
+    "Wezesha Industries offers green technical skills training, business incubation, and environmental consultancy in Bulawayo. PET recycling, beadwork, agro-value addition, and more.",
   keywords: [
     "green entrepreneur training Zimbabwe",
-    "recycling programs Bulawayo",
-    "women skills training",
-    "eco-broom production",
-    "green economy services",
-    "community development Zimbabwe",
+    "PET recycling training Bulawayo",
+    "paper recycling beadwork training",
+    "green business incubation Zimbabwe",
+    "eco-preneur training",
+    "green incubator accelerator",
+    "environmental management consultancy Zimbabwe",
+    "women skills training Bulawayo",
   ],
   openGraph: {
     title: "Services & Programs — Wezesha Industries",

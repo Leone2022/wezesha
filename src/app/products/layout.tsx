@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Green Products — Eco-Brooms, Plasticware & More",
+  title: "Green Products — Eco-Brooms, Home Décor & Educational Kits",
   description:
-    "Browse eco-friendly products from Wezesha Industries — handcrafted eco-brooms, recycled plasticware, bin liners, and refuse bins. Made by women artisans in Bulawayo, kind to the planet.",
+    "Browse eco-friendly products from Wezesha Industries — handcrafted eco-brooms, upcycled home décor, designer lamps, decorative cushions, and climate literacy board games. Made by women artisans in Bulawayo.",
   keywords: [
     "eco broom Zimbabwe",
     "recycled products Bulawayo",
-    "eco-friendly broom",
-    "recycled plasticware",
+    "upcycled home decor Zimbabwe",
+    "decorative cushions upcycled PET",
+    "designer lamps upcycled",
+    "climate literacy board game",
     "green products Zimbabwe",
-    "sustainable cleaning products",
+    "sustainable products Bulawayo",
     "buy eco-broom",
   ],
   openGraph: {

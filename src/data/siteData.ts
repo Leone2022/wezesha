@@ -15,11 +15,12 @@ import type {
 
 export const siteConfig = {
   name: "Wezesha Industries",
-  tradingAs: "The Above Ground Mining Project",
-  tagline: "Wezesha, the seedbed for tomorrow's green and inclusive industries",
+  tradingAs: "The Above Ground Mining Project and Eco-preneur Hub",
+  tagline:
+    "We are a green transition catalyst, incubator, and accelerator — producing innovative green products while teaching communities to do the same.",
   registration: "PBC 362/2022",
   description:
-    "Empowering women and youth through inclusive, decent, gender-centric green entrepreneurship in Bulawayo, Zimbabwe.",
+    "Wezesha Industries is a Zimbabwe-registered, women- and youth-led social enterprise at the forefront of Africa's green transition. We empower aspiring entrepreneurs to rapid-test and launch sustainable business models, bridging the critical gap between marginalised micro-entrepreneurs and mainstream market players.",
   url: "https://wezeshaindustries.com",
   ogImage: "/images/og-image.jpg",
 };
@@ -63,68 +64,70 @@ export const impactStats: StatItem[] = [
 ];
 
 export const services: ServiceItem[] = [
+  // A. Green Technical Skills Training
+  {
+    title: "PET Recycling & Eco-Broom Production Training",
+    description:
+      "Hands-on vocational training in turning recycled PET plastic waste into marketable eco-brooms — a practical skill that creates dignified green livelihoods.",
+    icon: "leaf",
+    href: "/what-we-do#eco-broom",
+  },
+  {
+    title: "Paper Recycling & Beadwork Innovation Training",
+    description:
+      "Creative technical training in recycling paper waste and transforming it into beadwork and innovative craft products with real market value.",
+    icon: "recycle",
+    href: "/what-we-do#paper-recycling",
+  },
+  {
+    title: "Agro-Produce Value Addition Training",
+    description:
+      "Training in adding value to agricultural produce through sustainable processing techniques, helping communities unlock new income streams.",
+    icon: "wheat",
+    href: "/what-we-do#agro",
+  },
+  // B. Green Business Incubation & Soft Skills Training
   {
     title: "Green Hustler-Preneur Training",
     description:
-      "Empowering individuals with skills to launch and grow green businesses that contribute to a circular economy.",
+      "Fast-tracks the launch of green business models (MVPs), helping women and youth transition from 'wanna-preneurs' to 'hustler-preneurs' with reduced capital risk.",
     icon: "sprout",
     href: "/what-we-do#training",
   },
   {
     title: "Recycling as a Business",
     description:
-      "Teaching communities how to transform waste into valuable products and sustainable income streams.",
-    icon: "recycle",
+      "Teaches communities how to transform waste into valuable products and sustainable income streams, reframing recycling as a serious business sector.",
+    icon: "briefcase",
     href: "/what-we-do#recycling",
   },
   {
-    title: "Eco-Broom Production",
+    title: "Green Business Incubation & Mentorship",
     description:
-      "Training in the production of eco-friendly brooms from recycled materials, creating green livelihoods.",
-    icon: "leaf",
-    href: "/what-we-do#eco-broom",
-  },
-  {
-    title: "Green Business Mentorship",
-    description:
-      "One-on-one guidance and support for aspiring green entrepreneurs to build sustainable enterprises.",
+      "Acts as a 'nursery' for early-stage start-ups, offering structural foundation and one-on-one mentorship necessary to survive the fragile initial phases of business.",
     icon: "handshake",
     href: "/what-we-do#mentorship",
   },
   {
-    title: "Market Linkages",
+    title: "Inclusive Value Chain Development",
     description:
-      "Connecting green product producers with markets, buyers, and distribution channels for growth.",
+      "Connecting green product producers with markets, buyers, and distribution channels — bypassing exploitative middleman structures for more equitable outcomes.",
     icon: "link",
     href: "/what-we-do#markets",
   },
   {
-    title: "Movement Building",
+    title: "Ecosystem & Green Movement Building",
     description:
-      "Building a collective force of green economy advocates and practitioners across Zimbabwe.",
+      "Building a collective force of green economy advocates and practitioners across Zimbabwe, integrating emerging enterprises into resilient, sustainable value chains.",
     icon: "megaphone",
     href: "/what-we-do#movement",
   },
   {
-    title: "Agro-Produce Value Addition",
+    title: "Environmental Management & Consultancy",
     description:
-      "Training in adding value to agricultural produce through sustainable processing techniques.",
-    icon: "wheat",
-    href: "/what-we-do#agro",
-  },
-  {
-    title: "Green Value Chain Consultancy",
-    description:
-      "Expert advisory services on building sustainable and inclusive green value chains.",
-    icon: "briefcase",
-    href: "/what-we-do#consultancy",
-  },
-  {
-    title: "Contract Drafting",
-    description:
-      "Professional contract drafting services for green businesses and social enterprises.",
+      "Expert advisory services and technical support on environmental management, green skills programming, and building sustainable inclusive green value chains.",
     icon: "file-text",
-    href: "/what-we-do#contracts",
+    href: "/what-we-do#consultancy",
   },
 ];
 
@@ -138,10 +141,62 @@ export const products: Product[] = [
       "Handcrafted eco-friendly broom made from recycled PET bottles and local grass.",
     price: "Contact for pricing",
     image: "/images/products/ecobroom.jpg",
-    category: "Cleaning",
+    category: "Home & Lifestyle",
     featured: true,
     impact:
       "Each broom diverts approximately 15 PET bottles from landfills and supports a woman artisan.",
+  },
+  {
+    id: "decorative-cushions",
+    name: "Decorative Cushions & Soft Furnishings",
+    description:
+      "Beautiful, functional home décor items — decorative cushions and soft furnishings all handcrafted from upcycled PET plastic waste. Each piece transforms environmental challenges into aesthetic assets for your home.",
+    shortDescription:
+      "Handcrafted cushions and soft furnishings made from upcycled PET waste.",
+    price: "Contact for pricing",
+    image: "/images/products/ecobroom.jpg",
+    category: "Home & Lifestyle",
+    impact:
+      "Diverts PET plastic from landfills and supports women artisans in our production hubs.",
+  },
+  {
+    id: "designer-lamps",
+    name: "Designer Lamps & Lamp Shades",
+    description:
+      "Distinctive interior décor pieces — designer lamps and lamp shades crafted from upcycled metal and paper waste. Each piece is unique, functional, and tells a story of transformation from waste to beauty.",
+    shortDescription:
+      "Unique lamps and lamp shades from upcycled metal and paper waste.",
+    price: "Contact for pricing",
+    image: "/images/products/plasticware.jpg",
+    category: "Interior Décor",
+    impact:
+      "Transforms metal and paper waste into premium home décor, supporting green artisans.",
+  },
+  {
+    id: "upcycled-mirrors",
+    name: "Upcycled Mirrors",
+    description:
+      "Striking mirrors with frames crafted from upcycled metal and paper waste. Each mirror is a conversation piece that blends sustainability with style — proof that waste can become something beautiful.",
+    shortDescription:
+      "Designer mirrors with upcycled metal and paper waste frames.",
+    price: "Contact for pricing",
+    image: "/images/products/plasticware.jpg",
+    category: "Interior Décor",
+    impact:
+      "Repurposes metal and paper waste into premium interior décor pieces.",
+  },
+  {
+    id: "climate-board-game",
+    name: "Climate Literacy Board Game",
+    description:
+      "An educational board game designed to build climate literacy in a fun, engaging way. Perfect for schools, families, and community groups — teaching the next generation about sustainability, recycling, and green economy principles.",
+    shortDescription:
+      "Educational board game teaching climate literacy and green economy principles.",
+    price: "Contact for pricing",
+    image: "/images/products/bin-liners.jpg",
+    category: "Creative & Educational",
+    impact:
+      "Builds environmental awareness and climate literacy in schools and communities.",
   },
   {
     id: "recycled-plasticware",
@@ -151,7 +206,7 @@ export const products: Product[] = [
     shortDescription:
       "Practical household items made from recycled plastic waste.",
     image: "/images/products/plasticware.jpg",
-    category: "Household",
+    category: "Home & Lifestyle",
   },
   {
     id: "bin-liners",
@@ -179,7 +234,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Sinqobile Ndlovu",
     role: "Founder & Executive Director",
-    bio: "Sinqobile is a passionate social entrepreneur and green economy advocate with over a decade of experience empowering women and youth through sustainable livelihoods. She founded Wezesha Industries with a vision to transform waste into wealth and build inclusive green enterprises across Zimbabwe.",
+    bio: "Sinqobile is a passionate social entrepreneur, green economy advocate, and Bertha Scholar for Social Innovation & Entrepreneurship (University of Cape Town). She founded Wezesha Industries after over a decade of working with informal waste-pickers, co-creating the 'Above Ground Miners' identity that transformed a community's self-perception and economic trajectory. Her mission: to ensure that the least powerful can operate alongside the most powerful economic players.",
     image: "/images/team/sinqobile-ndlovu.jpg",
     linkedin: "https://www.linkedin.com/in/sinqobile-ndlovu",
     email: "admin@wezeshaindustries.com",
@@ -189,9 +244,23 @@ export const teamMembers: TeamMember[] = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Wezesha Industries changed my life. I went from collecting waste to owning my own eco-broom business. Now I can provide for my family with dignity.",
-    author: "Thandiwe M.",
-    role: "Eco-Broom Producer",
+      "I am happy with the support we are getting from this business… I am no longer worried about balancing my housework with my job. I am thankful to be part of Wezesha.",
+    author: "Green Production Hub Member",
+    role: "Young Mother",
+    location: "Bulawayo",
+  },
+  {
+    quote:
+      "Most times I am forced to choose between earning an income or taking care of our children. I am happy to be part of this business because it matches my needs.",
+    author: "Eco-Broom Production Trainee",
+    role: "Female Entrepreneur",
+    location: "Bulawayo",
+  },
+  {
+    quote:
+      "This was very eye opening. I never thought there is income from rubbish and that there are people who depend on waste picking to feed their families!",
+    author: "Female Student",
+    role: "Treasure in Trash Competition Participant",
     location: "Bulawayo",
   },
   {
@@ -201,64 +270,50 @@ export const testimonials: Testimonial[] = [
     role: "Green Entrepreneur",
     location: "Bulawayo",
   },
-  {
-    quote:
-      "As a young person, Wezesha gave me the skills and confidence to start my green business. The mentorship program was exactly what I needed.",
-    author: "Tendai C.",
-    role: "Youth Entrepreneur",
-    location: "Bulawayo",
-  },
-  {
-    quote:
-      "The community level-up campaign brought real change to our neighbourhood. We now see waste differently — as a resource, not rubbish.",
-    author: "MaZulu S.",
-    role: "Community Leader",
-    location: "Bulawayo",
-  },
 ];
 
 export const timeline: TimelineEvent[] = [
   {
     year: "2013",
-    title: "The Beginning",
+    title: "The Recycling Middlemen",
     description:
-      "Founded as an informal community recycling initiative in Bulawayo, driven by the vision of turning waste into livelihoods for women.",
+      "Sinqobile Ndlovu founded The Recycling Middlemen (TRM), a registered for-profit enterprise offering recyclable waste collection services to companies in Bulawayo.",
   },
   {
     year: "2015",
-    title: "First Training Programs",
+    title: "Growing the Business",
     description:
-      "Launched the first green skills training programs targeting women and youth in Bulawayo's high-density suburbs.",
+      "After partnering with the Youth Press Bureau, TRM grew into one of Bulawayo's largest formal suppliers of cardboard and plastic to National Waste Collections.",
   },
   {
-    year: "2017",
-    title: "Eco-Broom Innovation",
+    year: "2018",
+    title: "A Crisis of Conscience",
     description:
-      "Developed the signature Eco-Broom product — transforming recycled PET bottles and local grass into a marketable household product.",
+      "Witnessing the exploitation of informal waste-pickers, Sinqobile pursued postgraduate research at UCT as a Bertha Scholar, living alongside waste-pickers and co-creating the 'Above Ground Miners' identity.",
   },
   {
     year: "2019",
-    title: "Movement Building",
+    title: "The Above Ground Mining Project",
     description:
-      "Expanded from production to movement building, launching the 'Treasure in Trash' schools competition to inspire the next generation.",
+      "TRM evolved into The Above Ground Mining Project (TAGMP) — an action-research pilot dedicated to building formal market linkages and dismantling negative stereotypes around waste-picking.",
+  },
+  {
+    year: "2021",
+    title: "The Birth of Wezesha",
+    description:
+      "Supported by a seed grant from the FREE Fund (Women Win, Netherlands), TAGMP began rapid-testing a green economy social enterprise model, training 120 young women in green skills.",
   },
   {
     year: "2022",
     title: "Official Registration",
     description:
-      "Formally registered as Wezesha Industries (PBC 362/2022), marking a new chapter of growth and professional operations.",
-  },
-  {
-    year: "2023",
-    title: "Scaling Impact",
-    description:
-      "Grew to 125+ members across multiple green production hubs, reaching over 6,000 people through programs and campaigns.",
+      "Formally registered as Wezesha Industries (PBC 362/2022) after successfully incubating MVP products including eco-brooms from PET plastic waste. A new chapter of growth begins.",
   },
   {
     year: "2024",
-    title: "National Recognition",
+    title: "Scaling Impact",
     description:
-      "Gained recognition as a leading social enterprise in Zimbabwe's green economy, partnering with international organisations.",
+      "Grew to 125+ members across multiple green production hubs, reaching over 6,000 people through programs and campaigns, with international partnership recognition.",
   },
 ];
 
@@ -323,54 +378,57 @@ export const sdgGoals: SDGGoal[] = [
   {
     number: 1,
     title: "No Poverty",
-    description: "Creating sustainable livelihoods for marginalised communities.",
+    description:
+      "Informal recyclers earn $6–$80/month. We formalise these roles and increase earning potential through value-addition and direct market access.",
     color: "#E5243B",
   },
   {
     number: 5,
     title: "Gender Equality",
     description:
-      "Empowering women through green entrepreneurship and leadership.",
+      "Women represent 80%+ of the bottom recycling value chain yet earn the minimum $6/month. We create flexible, gender-centric models that accommodate female entrepreneurs.",
     color: "#FF3A21",
   },
   {
     number: 8,
     title: "Decent Work & Economic Growth",
     description:
-      "Providing dignified employment in the green economy.",
+      "We advocate for waste management as a productive economic sector — shifting the narrative from 'scavenging' to a respectable, dignified profession.",
     color: "#A21942",
   },
   {
     number: 10,
     title: "Reduced Inequalities",
-    description: "Building inclusive enterprises that leave no one behind.",
+    description:
+      "Middlemen earn up to $400/month while primary harvesters earn a fraction. Our 'shared value' model bypasses exploitative structures for equitable profit distribution.",
     color: "#DD1367",
   },
   {
     number: 11,
     title: "Sustainable Cities",
     description:
-      "Making communities cleaner and more sustainable through recycling.",
+      "Targeting high-need areas like Ngozi Mine in Bulawayo — facilitating clean-up campaigns and creating green spaces in marginalised communities.",
     color: "#FD9D24",
   },
   {
     number: 12,
     title: "Responsible Consumption",
     description:
-      "Promoting circular economy principles and sustainable production.",
+      "Bridging the gap between waste generators and the recycling industry, promoting separation-at-source to support Smart City development.",
     color: "#BF8B2E",
   },
   {
     number: 13,
     title: "Climate Action",
-    description: "Reducing waste and emissions through green practices.",
+    description:
+      "Waste management is a critical pillar of climate action. We reduce waste, lower emissions, and build climate literacy through education and community programmes.",
     color: "#3F7E44",
   },
   {
     number: 17,
     title: "Partnerships for the Goals",
     description:
-      "Collaborating with partners to multiply our impact.",
+      "We actively seek multi-stakeholder partnerships across government, private sector, and international NGOs to build a sustained, inclusive green movement in Africa.",
     color: "#19486A",
   },
 ];
@@ -382,7 +440,7 @@ export const contactInfo: ContactInfo = {
     coordinates: { lat: -20.1525, lng: 28.5667 },
   },
   trainingCentre: {
-    address: "9th Avenue Extension, S. Parirenyatwa",
+    address: "Stand Number 2579Bt, Scout Hall, 9th Avenue Extension, S. Parirenyatwa",
     city: "Bulawayo, Zimbabwe",
     coordinates: { lat: -20.1467, lng: 28.58 },
   },
@@ -446,13 +504,13 @@ export const values = [
     icon: "check-circle",
   },
   {
-    title: "Innovation",
+    title: "Learning & Innovation",
     description:
       "We constantly seek creative solutions to transform waste into value and challenges into opportunities.",
     icon: "lightbulb",
   },
   {
-    title: "Partnership",
+    title: "Partnership & Collaboration",
     description:
       "We believe in the power of collaboration to amplify impact and drive systemic change.",
     icon: "handshake",
