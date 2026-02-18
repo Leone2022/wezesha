@@ -275,9 +275,9 @@ export default function Footer() {
             Designed &amp; Developed by{" "}
             <a
               href="tel:+263784031310"
-              className="text-neutral-400 hover:text-green-light transition-colors font-medium"
+              className="text-white hover:text-green-light transition-colors font-bold"
             >
-              Leetec Solutions
+              LeeTec Solution
             </a>{" "}
             — +263 78 403 1310
           </p>
