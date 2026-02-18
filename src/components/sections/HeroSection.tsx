@@ -36,14 +36,13 @@ export default function HeroSection() {
 
             {/* Heading */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-6 tracking-tight">
-              Empowering Communities Through{" "}
-              <span className="text-green-light">Green Innovation</span>
+              We make green products and empower differently-abled women and youths{" "}
+              <span className="text-green-light">to do the same.</span>
             </h1>
 
             {/* Subheading */}
             <p className="text-xl text-neutral-200 leading-relaxed mb-10 max-w-2xl mx-auto">
-              The seedbed for tomorrow&apos;s green and inclusive industries.
-              We empower women and youth through sustainable entrepreneurship.
+              Work with us to build tomorrow&apos;s green and inclusive industries today.
             </p>
 
             {/* CTA Buttons */}
