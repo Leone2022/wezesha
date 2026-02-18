@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Wezesha Industries",
     title: "Wezesha Industries — Green Economy & Women Empowerment",
     description:
-      "Empowering communities through green innovation. Building tomorrow's green and inclusive industries today.",
+      "The seedbed for tomorrow's green and inclusive industries. Empowering women and youth through sustainable entrepreneurship in Bulawayo, Zimbabwe.",
     images: [
       {
         url: "/images/og-image.jpg",

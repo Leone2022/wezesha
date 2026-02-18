@@ -42,7 +42,7 @@ export default function HeroSection() {
 
             {/* Subheading */}
             <p className="text-xl text-neutral-200 leading-relaxed mb-10 max-w-2xl mx-auto">
-              Building tomorrow&apos;s green and inclusive industries today.
+              The seedbed for tomorrow&apos;s green and inclusive industries.
               We empower women and youth through sustainable entrepreneurship.
             </p>
 
