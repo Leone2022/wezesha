@@ -278,9 +278,23 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "I normally wait for buyers or walk long distances in search for markets. My products are bulky. After walking the whole day, I end up selling to whoever offers me whatever amount. Wezesha changed that.",
+      "I normally wait for buyers or walk long distances in search for markets. My products are bulky — I can only carry two or three at a time. After walking the whole day, I end up selling to whoever offers me whatever amount that will enable me to go back home with food for my children.",
     author: "Male Youth Exhibitor",
-    role: "Green Producer",
+    role: "First Market Fair, Green Producer",
+    location: "Bulawayo",
+  },
+  {
+    quote:
+      "We pick old clothing and socks from the dumpsite which we use for sanitary wear. We know it's not healthy, but using this allows us to carry on with our work during 'those times of the month.'",
+    author: "Woman Beneficiary",
+    role: "First Ngozi Mine Health Expo",
+    location: "Bulawayo",
+  },
+  {
+    quote:
+      "My twins have no birth certificates. I am pained at the thought of my children growing up without being able to go to school. I have a US$200 delivery debt at a local hospital — they withheld my children's birth records. I feel hopeless because I can't see how a person like me can raise this amount.",
+    author: "Young Mother, 25",
+    role: "Community Member",
     location: "Bulawayo",
   },
   {

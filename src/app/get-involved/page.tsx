@@ -14,6 +14,8 @@ import {
   Send,
   CheckCircle,
   ArrowRight,
+  Factory,
+  TrendingUp,
 } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
@@ -63,10 +65,26 @@ const involvementWays = [
     href: "#membership",
   },
   {
+    icon: Factory,
+    title: "Join Our Production Network",
+    description:
+      "Become part of our green production network — access training, tools, workspace, and raw materials to produce and sell green products.",
+    cta: "Contact Us",
+    href: "/contact",
+  },
+  {
+    icon: TrendingUp,
+    title: "Become a Trade Partner",
+    description:
+      "Partner with Wezesha as a trade partner — buy our green products for use or resale, or open distribution channels in your market.",
+    cta: "Contact Us",
+    href: "/contact",
+  },
+  {
     icon: Briefcase,
     title: "Engage for Consultancy",
     description:
-      "Tap into our expertise in green value chains, social enterprise development, and inclusive business models.",
+      "Tap into our expertise in green value chains, environmental management, and inclusive business model development.",
     cta: "Contact Us",
     href: "/contact",
   },
