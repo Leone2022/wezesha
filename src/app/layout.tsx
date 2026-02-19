@@ -29,10 +29,11 @@ export const metadata: Metadata = {
     "Wezesha Industries empowers women and youth through inclusive, gender-centric green entrepreneurship. We recycle, train, and build sustainable livelihoods in Bulawayo, Zimbabwe.",
   icons: {
     icon: [
-      { url: "/icon.jpg", type: "image/jpeg" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/apple-icon.jpg", type: "image/jpeg" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
     ],
   },
   keywords: [
@@ -101,7 +102,7 @@ const jsonLd = {
       url: "https://wezeshaindustries.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://wezeshaindustries.com/icon.jpg",
+        url: "https://wezeshaindustries.com/icon-192.png",
         width: 192,
         height: 192,
       },
