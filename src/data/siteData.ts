@@ -377,7 +377,7 @@ export const partners: Partner[] = [
   { name: "Treger Plastics", logo: "/images/partners/Treger Plastics.png" },
   { name: "Soroptimist International", logo: "/images/partners/Soroptimist International.jpg" },
   { name: "Plan International", logo: "/images/partners/Plan International.png" },
-  { name: "Let's Do It", logo: "/images/partners/Let's Do It.jpg" },
+  { name: "Let's Do It", logo: "/images/partners/Let.jpg" },
 ];
 
 export const blogPosts: BlogPost[] = [

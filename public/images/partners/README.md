@@ -7,7 +7,7 @@ Please add the following logo files to this directory:
 3. **City of Bulawayo.jpg** - City of Bulawayo logo
 4. **Jairos Jiri Association.png** - Jairos Jiri Association logo
 5. **JCI Zimbabwe.png** - JCI Zimbabwe logo
-6. **Let's Do It.jpg** - Let's Do It logo
+6. **Let.jpg** - Let's Do It logo
 7. **MDPCZ.png** - MDPCZ logo
 8. **Ministry of Youth.jpg** - Ministry of Youth logo
 9. **Moremi Group.jpg** - Moremi Group logo
