@@ -80,7 +80,7 @@ export default function Footer() {
             </Link>
             <p className="text-neutral-300 text-sm leading-relaxed mb-6">
               Empowering women and youth through inclusive, decent,
-              gender-centric green entrepreneurship in Bulawayo, Zimbabwe.
+              gender-centric green entrepreneurship.
             </p>
             <div className="flex gap-3">
               <a

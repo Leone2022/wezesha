@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | Wezesha Industries",
   },
   description:
-    "Wezesha Industries empowers women and youth through inclusive, gender-centric green entrepreneurship. We recycle, train, and build sustainable livelihoods in Bulawayo, Zimbabwe.",
+    "Wezesha Industries empowers women and youth through inclusive, gender-centric green entrepreneurship. We recycle, train, and build sustainable livelihoods.",
   icons: {
     icon: [
       { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
@@ -107,7 +107,7 @@ const jsonLd = {
         height: 192,
       },
       description:
-        "Social enterprise empowering women and youth through inclusive, gender-centric green entrepreneurship in Bulawayo, Zimbabwe.",
+        "Social enterprise empowering women and youth through inclusive, gender-centric green entrepreneurship.",
       foundingDate: "2013",
       founder: {
         "@type": "Person",
