@@ -44,27 +44,21 @@ export const impactStats: StatItem[] = [
     icon: "users",
   },
   {
-    value: 10,
+    value: 3,
     suffix: "+",
     label: "Years of inclusive impact",
     icon: "calendar",
   },
   {
-    value: 7000,
+    value: 500,
     suffix: "+",
-    label: "People reached directly through our programs",
-    icon: "globe",
-  },
-  {
-    value: 250,
-    suffix: "+",
-    label: "Women & youths trained in green skills",
+    label: "Women and youths trained in green skills",
     icon: "graduation-cap",
   },
   {
-    value: 30000,
+    value: 4,
     suffix: "+",
-    label: "PET bottles diverted from landfill & converted into green products",
+    label: "Tonnes of recyclable waste diverted from landfills & converted into green products",
     icon: "recycle",
   },
 ];
@@ -110,7 +104,7 @@ export const services: ServiceItem[] = [
   {
     title: "Green Business Acceleration, Incubation & Mentorship",
     description:
-      "We offer custom trainings and handhold emerging and aspiring green entrepreneurs to rapid test and launch MVPs (basic, low cost business models).",
+      "We offer custom trainings, real-life hustler-preneurial simulations that help emerging entrepreneurs to monetise green skills by rapid testing and launching MVPs (basic, low cost business models). We also provide blended financing models that give entrepreneurs access to the critical resources they need to start their green businesses.",
     icon: "handshake",
     href: "/what-we-do#mentorship",
   },
@@ -134,6 +128,13 @@ export const services: ServiceItem[] = [
       "We provide custom trainings and consultancy services that help businesses to comply with environmental legal requirements, and/or to reach sustainability targets.",
     icon: "file-text",
     href: "/what-we-do#consultancy",
+  },
+  {
+    title: "Greening Vocational Training",
+    description:
+      "We offer support to green the delivery of vocational training programs. We also work with partners to support trainees and graduates of vocational training programs to green their newly gained vocational skills.",
+    icon: "graduation-cap",
+    href: "/what-we-do#vocational",
   },
 ];
 
@@ -358,18 +359,25 @@ export const timeline: TimelineEvent[] = [
 ];
 
 export const partners: Partner[] = [
-  { name: "Women Win", logo: "/images/partners/women-win.png" },
-  { name: "JCI Zimbabwe", logo: "/images/partners/jci-zimbabwe.png" },
+  { name: "Women Win", logo: "/images/partners/Women Win.png" },
+  { name: "JCI Zimbabwe", logo: "/images/partners/JCI Zimbabwe.png" },
   {
     name: "Bertha Centre for Social Innovation",
-    logo: "/images/partners/bertha-centre.png",
+    logo: "/images/partners/Bertha Centre.png",
   },
-  { name: "British Council", logo: "/images/partners/british-council.png" },
-  { name: "UNDP Zimbabwe", logo: "/images/partners/undp.png" },
-  {
-    name: "Embassy of Netherlands",
-    logo: "/images/partners/netherlands-embassy.png",
-  },
+  { name: "Ministry of Youth", logo: "/images/partners/Ministry of Youth.jpg" },
+  { name: "City of Bulawayo", logo: "/images/partners/City of Bulawayo.jpg" },
+  { name: "Tallinn University", logo: "/images/partners/Tallinn University.jpg" },
+  { name: "University of Cape Town", logo: "/images/partners/University of Cape Town.png" },
+  { name: "MDPCZ", logo: "/images/partners/MDPCZ.png" },
+  { name: "Moremi Group", logo: "/images/partners/Moremi Group.jpg" },
+  { name: "Women in Africa", logo: "/images/partners/Women in Africa.png" },
+  { name: "AECF", logo: "/images/partners/aecf.jpg" },
+  { name: "Jairos Jiri Association", logo: "/images/partners/Jairos Jiri Association.png" },
+  { name: "Treger Plastics", logo: "/images/partners/Treger Plastics.png" },
+  { name: "Soroptimist International", logo: "/images/partners/Soroptimist International.jpg" },
+  { name: "Plan International", logo: "/images/partners/Plan International.png" },
+  { name: "Let's Do It", logo: "/images/partners/Let's Do It.jpg" },
 ];
 
 export const blogPosts: BlogPost[] = [
@@ -485,7 +493,7 @@ export const contactInfo: ContactInfo = {
     coordinates: { lat: -20.1467, lng: 28.58 },
   },
   email: "info@wezeshaindustries.com",
-  phone: "+263 775 182 522",
+  phone: "+263 787288099",
   contactPerson: {
     name: "Sinqobile Ndlovu",
     email: "admin@wezeshaindustries.com",

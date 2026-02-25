@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us — Get in Touch",
   description:
-    "Contact Wezesha Industries in Bulawayo, Zimbabwe. Visit our factory at Kelvin North, email info@wezeshaindustries.com, or call +263 77 280 9498. Bulk orders welcome.",
+    "Contact Wezesha Industries in Bulawayo, Zimbabwe. Visit our factory at Kelvin North, email info@wezeshaindustries.com, or call +263 787288099. Bulk orders welcome.",
   keywords: [
     "Wezesha Industries contact",
     "Bulawayo green enterprise",

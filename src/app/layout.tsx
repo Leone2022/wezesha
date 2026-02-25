@@ -122,7 +122,7 @@ const jsonLd = {
       },
       contactPoint: {
         "@type": "ContactPoint",
-        telephone: "+263-77-280-9498",
+        telephone: "+263-787288099",
         email: "info@wezeshaindustries.com",
         contactType: "customer service",
       },

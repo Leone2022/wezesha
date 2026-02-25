@@ -16,7 +16,7 @@ export default function WhatWeDoPreview() {
         <SectionHeading
           subtitle="What We Do – Our Services"
           title="Securing green, gainful and gender-centric livelihoods"
-          description="We provide training, mentorship, and market access to empower women and youth in the green economy."
+          description="We go beyond training and empower women and youths to be the engines driving green value chains."
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
