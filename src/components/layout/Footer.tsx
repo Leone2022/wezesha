@@ -60,7 +60,7 @@ export default function Footer() {
 
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-8">
           {/* About Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4">
@@ -129,63 +129,6 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h4 className="text-lg font-semibold font-heading mb-4">
-              Our Services
-            </h4>
-            <ul className="space-y-2.5">
-              <li>
-                <Link
-                  href="/what-we-do"
-                  className="text-neutral-300 hover:text-green-light transition-colors text-sm"
-                >
-                  Green Hustler-Preneur Training
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/what-we-do"
-                  className="text-neutral-300 hover:text-green-light transition-colors text-sm"
-                >
-                  Recycling as a Business
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/what-we-do"
-                  className="text-neutral-300 hover:text-green-light transition-colors text-sm"
-                >
-                  Eco-Broom Production
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/what-we-do"
-                  className="text-neutral-300 hover:text-green-light transition-colors text-sm"
-                >
-                  Green Business Mentorship
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/products"
-                  className="text-neutral-300 hover:text-green-light transition-colors text-sm"
-                >
-                  Green Products
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/what-we-do"
-                  className="text-neutral-300 hover:text-green-light transition-colors text-sm"
-                >
-                  Consultancy
-                </Link>
-              </li>
             </ul>
           </div>
 
