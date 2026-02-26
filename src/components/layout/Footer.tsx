@@ -141,14 +141,6 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-green-light shrink-0 mt-0.5" />
                 <div className="text-sm text-neutral-300">
-                  <p className="font-medium text-white">Factory</p>
-                  <p>{contactInfo.factory.address}</p>
-                  <p>{contactInfo.factory.city}</p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-green-light shrink-0 mt-0.5" />
-                <div className="text-sm text-neutral-300">
                   <p className="font-medium text-white">Training Centre</p>
                   <p>{contactInfo.trainingCentre.address}</p>
                   <p>{contactInfo.trainingCentre.city}</p>
