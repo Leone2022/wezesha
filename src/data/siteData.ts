@@ -80,11 +80,11 @@ export const services: ServiceItem[] = [
     href: "/what-we-do#paper-recycling",
   },
   {
-    title: "Agro-Produce Value Addition Training",
+    title: "Greening Vocational Training",
     description:
-      "Training in adding value to agricultural produce through sustainable processing techniques, helping communities unlock new income streams.",
-    icon: "wheat",
-    href: "/what-we-do#agro",
+      "We offer support to green the delivery of vocational training programs. We also work with partners to support trainees and graduates of vocational training programs to green their newly gained vocational skills.",
+    icon: "graduation-cap",
+    href: "/what-we-do#vocational",
   },
   // B. Green Business Incubation & Soft Skills Training
   {
@@ -109,6 +109,13 @@ export const services: ServiceItem[] = [
     href: "/what-we-do#mentorship",
   },
   {
+    title: "Agro-Produce Value Addition Training",
+    description:
+      "Training in adding value to agricultural produce through sustainable processing techniques, helping communities unlock new income streams.",
+    icon: "wheat",
+    href: "/what-we-do#agro",
+  },
+  {
     title: "Inclusive Value Chain Development",
     description:
       "Connecting green product producers with markets, buyers, and distribution channels — bypassing exploitative middleman structures for more equitable outcomes.",
@@ -128,13 +135,6 @@ export const services: ServiceItem[] = [
       "We provide custom trainings and consultancy services that help businesses to comply with environmental legal requirements, and/or to reach sustainability targets.",
     icon: "file-text",
     href: "/what-we-do#consultancy",
-  },
-  {
-    title: "Greening Vocational Training",
-    description:
-      "We offer support to green the delivery of vocational training programs. We also work with partners to support trainees and graduates of vocational training programs to green their newly gained vocational skills.",
-    icon: "graduation-cap",
-    href: "/what-we-do#vocational",
   },
 ];
 
