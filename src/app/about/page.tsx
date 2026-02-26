@@ -57,43 +57,95 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
             >
               <span className="text-green-primary text-sm font-semibold tracking-wider uppercase">
-                The Beginning
+                Our Story
               </span>
               <h2 className="text-3xl lg:text-4xl font-bold font-heading text-neutral-900 mt-2 mb-6">
                 From Waste Collectors to Green Catalysts
               </h2>
-              <div className="space-y-4 text-neutral-600 leading-relaxed">
-                <p>
-                  Wezesha Industries began in 2013 as The Recycling Middlemen
-                  (TRM), a for-profit waste collection enterprise in Bulawayo.
-                  By 2015, TRM had grown into one of the city&apos;s largest formal
-                  suppliers of cardboard and plastic. But behind that success
-                  was an uncomfortable truth: the industry was built on an
-                  invisible, exploited network of informal waste-pickers.
-                </p>
-                <p>
-                  That turning point led founder Sinqobile Ndlovu to the
-                  University of Cape Town as a Bertha Scholar for Social
-                  Innovation. Living and working alongside waste-pickers, she
-                  helped co-create a new identity — &ldquo;Above Ground Miners&rdquo; —
-                  that reflected their true economic value. This sparked the
-                  evolution into The Above Ground Mining Project (TAGMP), and
-                  ultimately into Wezesha Industries in 2022.
-                </p>
-                <p>
-                  &ldquo;Wezesha&rdquo; — a KiSwahili word meaning &lsquo;To Empower&rsquo; — captures
-                  our mission perfectly. Today, trading as <em>The Above Ground
-                  Mining Project</em> and <em>Eco-preneur Hub</em>, we are a green
-                  transition catalyst, incubator, and accelerator that produces
-                  innovative green products while teaching communities to do the
-                  same.
-                </p>
-                <p>
-                  We do this by helping women and youths to develop and monetise green skills.
-                </p>
-                <p>
-                  Our products help communities make climate action a fashionable part of everyday life.
-                </p>
+              <div className="space-y-6 text-neutral-600 leading-relaxed">
+                <div>
+                  <h3 className="text-xl font-bold text-neutral-900 mb-3">
+                    The Origin: The Recycling Middlemen (2013 – 2015)
+                  </h3>
+                  <p>
+                    The story of Wezesha Industries began in 2013 with The
+                    Recycling Middlemen (TRM), a formerly registered for-profit
+                    enterprise which offered recyclable waste collection services to
+                    companies in Bulawayo. By 2015, after partnering with the
+                    Youth Press Bureau, TRM had grown into one of Bulawayo&apos;s
+                    largest, formal suppliers of cardboard and plastic to National
+                    Waste Collections.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-neutral-900 mb-3">
+                    The Turning Point: A Crisis of Conscience
+                  </h3>
+                  <p className="mb-4">
+                    Despite the commercial success of TRM, our founder, Sinqobile,
+                    began to witness a troubling reality: formal industry success was
+                    driven by waste cartels that had power over an invisible, exploited network of informal
+                    waste-pickers. The &quot;aha&quot; moment was a visceral one.
+                  </p>
+                  <p className="mb-4">
+                    During a routine collection, the TRM team encountered a scene of tragic
+                    desperation where two, male waste-pickers had fought violently over
+                    the very materials TRM was contracted to collect. This
+                    encounter exposed a sector governed by exclusion, where
+                    women often laboured in hazardous conditions with their
+                    children in tow, earning as little as $3 USD a month.
+                  </p>
+                  <p>
+                    This crisis of conscience stripped away the corporate veneer of
+                    the recycling industry, revealing that the traditional business model
+                    was not just competitive—it was fundamentally predatory. It became clear that
+                    profit could no longer be decoupled from the dignity of the people at the margins.
+                    This realization became the catalyst for Wezesha Industries, shifting the focus from
+                    simply managing waste to co-creating an inclusive ecosystem that transforms
+                    &quot;waste-picking&quot; into a path for gainful, formal entrepreneurship.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-neutral-900 mb-3">
+                    Beyond the Labels: Redefining Circumstantial Entrepreneurship
+                  </h3>
+                  <p className="mb-4">
+                    Driven to find a more equitable model, Sinqobile pursued postgraduate research
+                    at the University of Cape Town as a Bertha Scholar for Social Innovation &amp;
+                    Entrepreneurship. Her approach was radical and deeply personal; she adopted an
+                    ethnographic methodology, living and working alongside informal waste-pickers
+                    whom she identified not as victims, but as &quot;circumstantial social entrepreneurs.&quot;
+                  </p>
+                  <p>
+                    Through this collaborative immersion, a new identity emerged. The community
+                    rejected derogatory labels often used to describe informal waste pickers such as
+                    izibhonda (&quot;crazy, homeless people&quot;) and co-created a term that reflected their
+                    true economic value: &quot;Above Ground Miners.&quot; This linguistic shift sparked a total
+                    transformation in mission, evolving her previous company into The Above Ground
+                    Mining Project (TAGMP)—an action-research pilot dedicated to building formal
+                    market linkages and dismantling negative stereotypes.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-neutral-900 mb-3">
+                    The Evolution: The Birth of Wezesha (2021–2022)
+                  </h3>
+                  <p className="mb-4">
+                    Between 2021 and 2022, supported by a seed grant from the FREE Fund (Women
+                    Win, Netherlands), TAGMP began rapid-testing a green economy social enterprise
+                    model designed to empower differently-abled adolescent girls, young women, and
+                    youth to take up gainful opportunities in the recycling space.
+                  </p>
+                  <p>
+                    The project successfully trained 120 young women in green skills and thereafter
+                    incubated MVPs that produced a variety of upcycled products including sweeping
+                    brooms made from PET plastic waste. This successful testing phase led to the
+                    formalization of the Wezesha Industries&apos; business model in 2022.
+                  </p>
+                </div>
               </div>
             </motion.div>
 
