@@ -322,13 +322,13 @@ export const timeline: TimelineEvent[] = [
   },
   {
     year: "2015",
-    title: "Growing the Business",
+    title: "A crisis of conscience",
     description:
-      "After partnering with the Youth Press Bureau, TRM grew into one of Bulawayo's largest formal suppliers of cardboard and plastic to National Waste Collections.",
+      "During a routine collection, the TRM team encountered a scene of tragic desperation where two, male waste-pickers had fought violently over the very materials TRM was contracted to collect.",
   },
   {
     year: "2018",
-    title: "A Crisis of Conscience",
+    title: "Bertha Scholar for Social Innovation",
     description:
       "Witnessing the exploitation of informal waste-pickers, Sinqobile pursued postgraduate research at UCT as a Bertha Scholar, living alongside waste-pickers and co-creating the 'Above Ground Miners' identity.",
   },
