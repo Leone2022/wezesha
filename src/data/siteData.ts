@@ -28,7 +28,7 @@ export const siteConfig = {
 export const navLinks: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
-  { label: "What We Do – Our Services", href: "/what-we-do" },
+  { label: "Our Services", href: "/what-we-do" },
   { label: "Products", href: "/products" },
   { label: "Our Impact", href: "/impact" },
   { label: "Get Involved", href: "/get-involved" },

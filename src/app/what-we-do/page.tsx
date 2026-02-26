@@ -21,7 +21,7 @@ export default function WhatWeDoPage() {
             className="max-w-3xl mx-auto text-center"
           >
             <span className="text-green-light text-sm font-semibold tracking-wider uppercase">
-              What We Do – Our Services
+              Our Services
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-white mt-2 mb-4">
               Services & Programs

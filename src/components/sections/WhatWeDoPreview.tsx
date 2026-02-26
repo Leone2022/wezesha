@@ -14,7 +14,7 @@ export default function WhatWeDoPreview() {
     <section className="py-20 lg:py-28 bg-white" aria-label="What we do">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          subtitle="What We Do – Our Services"
+          subtitle="Our Services"
           title="Securing green, gainful and gender-centric livelihoods"
           description="We go beyond training and empower women and youths to be the engines driving green value chains."
         />
