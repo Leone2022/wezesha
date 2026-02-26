@@ -18,7 +18,7 @@ export default function ImpactStats() {
         <p className="text-center text-xs font-semibold tracking-widest uppercase text-green-light mb-10">
           Our impact at a glance
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6">
           {impactStats.map((stat) => (
             <StatCounter
               key={stat.label}
