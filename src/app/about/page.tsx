@@ -39,7 +39,7 @@ export default function AboutPage() {
               Our Story
             </h1>
             <p className="text-lg text-neutral-300 leading-relaxed">
-              From a small community recycling initiative to a leading social
+              From a small community recycling initiative to a leading, green social
               enterprise — discover the journey of Wezesha Industries.
             </p>
           </motion.div>
