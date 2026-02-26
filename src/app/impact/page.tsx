@@ -48,6 +48,7 @@ export default function ImpactPage() {
                 key={stat.label}
                 value={stat.value}
                 suffix={stat.suffix}
+                prefix={stat.prefix}
                 label={stat.label}
                 icon={stat.icon}
                 light

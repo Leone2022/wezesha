@@ -6,7 +6,8 @@ export interface NavLink {
 
 export interface StatItem {
   value: number;
-  suffix: string;
+  suffix?: string;
+  prefix?: string;
   label: string;
   icon?: string;
 }

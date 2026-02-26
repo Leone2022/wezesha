@@ -20,7 +20,8 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 
 interface StatCounterProps {
   value: number;
-  suffix: string;
+  suffix?: string;
+  prefix?: string;
   label: string;
   icon?: string;
   light?: boolean;
@@ -29,6 +30,7 @@ interface StatCounterProps {
 export default function StatCounter({
   value,
   suffix,
+  prefix,
   label,
   icon,
   light = false,
@@ -59,6 +61,7 @@ export default function StatCounter({
           light ? "text-white" : "text-green-dark"
         )}
       >
+        {prefix}
         {count.toLocaleString()}
         {suffix}
       </div>

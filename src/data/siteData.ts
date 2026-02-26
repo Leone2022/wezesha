@@ -57,7 +57,7 @@ export const impactStats: StatItem[] = [
   },
   {
     value: 4,
-    suffix: "+",
+    prefix: "+",
     label: "Tonnes of recyclable waste diverted from landfills & converted into green products",
     icon: "recycle",
   },

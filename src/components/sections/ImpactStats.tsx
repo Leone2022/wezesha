@@ -24,6 +24,7 @@ export default function ImpactStats() {
               key={stat.label}
               value={stat.value}
               suffix={stat.suffix}
+              prefix={stat.prefix}
               label={stat.label}
               icon={stat.icon}
               light
