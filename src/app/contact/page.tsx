@@ -33,19 +33,41 @@ type ContactForm = z.infer<typeof contactSchema>;
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors, isSubmitting },
   } = useForm<ContactForm>({
     resolver: zodResolver(contactSchema),
   });
 
   const onSubmit = async (data: ContactForm) => {
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log("Contact form:", data);
-    setSubmitted(true);
+    setSubmitError(null);
+
+    try {
+      const response = await fetch("/api/forms/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          formType: "contact",
+          data,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message. Please try again.");
+      }
+
+      reset();
+      setSubmitted(true);
+    } catch {
+      setSubmitError("Failed to send message. Please try again.");
+    }
   };
 
   return (
@@ -392,6 +414,10 @@ export default function ContactPage() {
                   >
                     {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
+
+                  {submitError && (
+                    <p className="text-red-500 text-sm text-center">{submitError}</p>
+                  )}
                 </form>
               )}
             </div>

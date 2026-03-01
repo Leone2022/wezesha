@@ -3,8 +3,9 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
+import { contactInfo } from "@/data/siteData";
 
-const WHATSAPP_NUMBER = "263775182522";
+const WHATSAPP_NUMBER = contactInfo.phone.replace(/\D/g, "");
 const DEFAULT_MESSAGE =
   "Hello Wezesha Industries! I'd like to learn more about your products and services.";
 
@@ -44,7 +45,7 @@ export default function WhatsAppButton() {
               rel="noopener noreferrer"
               className="block w-full text-center bg-[#25D366] text-white text-sm font-semibold py-2.5 rounded-lg hover:bg-[#1fb855] transition-colors"
             >
-              Start Chat
+              Send Message
             </a>
           </motion.div>
         )}

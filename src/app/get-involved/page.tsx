@@ -92,20 +92,41 @@ const involvementWays = [
 
 export default function GetInvolvedPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors, isSubmitting },
   } = useForm<VolunteerForm>({
     resolver: zodResolver(volunteerSchema),
   });
 
   const onSubmit = async (data: VolunteerForm) => {
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log("Volunteer application:", data);
-    setSubmitted(true);
+    setSubmitError(null);
+
+    try {
+      const response = await fetch("/api/forms/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          formType: "volunteer",
+          data,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit application. Please try again.");
+      }
+
+      reset();
+      setSubmitted(true);
+    } catch {
+      setSubmitError("Failed to submit application. Please try again.");
+    }
   };
 
   return (
@@ -404,6 +425,10 @@ export default function GetInvolvedPage() {
               >
                 {isSubmitting ? "Submitting..." : "Submit Application"}
               </Button>
+
+              {submitError && (
+                <p className="text-red-500 text-sm text-center">{submitError}</p>
+              )}
             </form>
           )}
         </div>

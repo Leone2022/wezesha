@@ -1,5 +1,6 @@
 "use client";
 
+import { FormEvent, useState } from "react";
 import Link from "next/link";
 import {
   FacebookIcon,
@@ -15,8 +16,52 @@ import { contactInfo, navLinks } from "@/data/siteData";
 import Button from "@/components/ui/Button";
 
 export default function Footer() {
+  const [newsletterEmail, setNewsletterEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const onNewsletterSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setSubmitError(null);
+    setSubmitted(false);
+
+    if (!newsletterEmail.trim()) {
+      setSubmitError("Please enter your email address.");
+      return;
+    }
+
+    try {
+      setIsSubmitting(true);
+
+      const response = await fetch("/api/forms/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          formType: "newsletter",
+          data: {
+            email: newsletterEmail.trim(),
+          },
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to subscribe. Please try again.");
+      }
+
+      setNewsletterEmail("");
+      setSubmitted(true);
+    } catch {
+      setSubmitError("Failed to subscribe. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const currentYear = new Date().getFullYear();
@@ -36,23 +81,28 @@ export default function Footer() {
                 impact stories.
               </p>
             </div>
-            <form
-              className="flex w-full md:w-auto gap-2"
-              onSubmit={(e) => e.preventDefault()}
-            >
+            <form className="w-full md:w-auto" onSubmit={onNewsletterSubmit}>
+              <div className="flex gap-2">
               <label htmlFor="newsletter-email" className="sr-only">
                 Email address
               </label>
               <input
                 id="newsletter-email"
                 type="email"
+                value={newsletterEmail}
+                onChange={(event) => setNewsletterEmail(event.target.value)}
                 placeholder="Your email address"
                 required
                 className="flex-1 md:w-72 px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-green-light"
               />
-              <Button variant="gold" size="md" type="submit">
-                Subscribe
+              <Button variant="gold" size="md" type="submit" disabled={isSubmitting}>
+                {isSubmitting ? "Submitting..." : "Subscribe"}
               </Button>
+              </div>
+              {submitted && (
+                <p className="text-green-light text-sm mt-2">Subscribed successfully.</p>
+              )}
+              {submitError && <p className="text-red-300 text-sm mt-2">{submitError}</p>}
             </form>
           </div>
         </div>
