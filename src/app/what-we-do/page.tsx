@@ -151,8 +151,12 @@ export default function WhatWeDoPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-xl overflow-hidden border border-neutral-100 hover:shadow-xl transition-all duration-300"
               >
-                <div className="aspect-[16/9] bg-gradient-to-br from-green-primary/10 to-green-dark/10 flex items-center justify-center">
-                  <img src="/images/gallery/wezeshalogo2.png" alt="" className="w-16 h-auto opacity-30" />
+                <div className="aspect-[16/9] overflow-hidden">
+                  <img
+                    src={["/images/gallery/training.jpg", "/images/gallery/makingbroom.jpg", "/images/gallery/workshop2.jpg"][index % 3]}
+                    alt={program.title}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold font-heading text-neutral-900 mb-3">

@@ -222,11 +222,11 @@ export default function GetInvolvedPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-green-primary/10 to-gold/10 border border-green-primary/20 overflow-hidden flex items-center justify-center">
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden">
                 <img
-                  src="/images/gallery/wezeshalogo2.png"
-                  alt="Wezesha Industries membership"
-                  className="w-2/3 h-auto object-contain opacity-80"
+                  src="/images/gallery/groupphoto.jpg"
+                  alt="Wezesha Industries community members"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </motion.div>

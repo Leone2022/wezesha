@@ -88,23 +88,26 @@ export default function ImpactPage() {
           />
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+            {[
+              { src: "/images/gallery/groupphoto.jpg", alt: "Wezesha team group photo", large: true },
+              { src: "/images/gallery/workshop2.jpg", alt: "Workshop session" },
+              { src: "/images/gallery/makingbroom.jpg", alt: "Making eco-brooms" },
+              { src: "/images/gallery/girlpickinglitter.jpg", alt: "Community clean-up" },
+              { src: "/images/gallery/wese.jpg", alt: "Green products display" },
+              { src: "/images/gallery/trainingphoto.jpg", alt: "Training program", large: true },
+              { src: "/images/gallery/productsposter.jpg", alt: "Products showcase" },
+              { src: "/images/gallery/workshopl.jpg", alt: "Workshop activity" },
+            ].map((item, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.05 }}
-                className={`rounded-xl bg-gradient-to-br from-green-primary/10 to-green-dark/10 overflow-hidden ${
-                  i === 1 || i === 6 ? "md:col-span-2 md:row-span-2" : ""
-                }`}
+                className={`rounded-xl overflow-hidden ${item.large ? "md:col-span-2 md:row-span-2" : ""}`}
               >
-                <div
-                  className={`${
-                    i === 1 || i === 6 ? "aspect-square" : "aspect-[4/3]"
-                  } flex items-center justify-center`}
-                >
-                  <img src="/images/gallery/wezeshalogo2.png" alt="" className="w-12 h-auto opacity-20" />
+                <div className={`${item.large ? "aspect-square" : "aspect-[4/3]"} w-full h-full`}>
+                  <img src={item.src} alt={item.alt} className="w-full h-full object-cover" />
                 </div>
               </motion.div>
             ))}

@@ -284,7 +284,7 @@ export const teamMembers: TeamMember[] = [
     name: "Sinqobile Ndlovu",
     role: "Founder & Executive Director",
     bio: "Sinqobile is a passionate social entrepreneur, green economy advocate, and Bertha Scholar for Social Innovation & Entrepreneurship (University of Cape Town). She founded Wezesha Industries after over a decade of working with informal waste-pickers, co-creating the 'Above Ground Miners' identity that transformed a community's self-perception and economic trajectory. Her mission: to ensure that the least powerful can operate alongside the most powerful economic players.",
-    image: "/images/gallery/groupphoto.jpg.jpg",
+    image: "/images/gallery/groupphoto.jpg",
     linkedin: "https://www.linkedin.com/in/sinqobile-ndlovu",
     email: "admin@wezeshaindustries.com",
   },
@@ -416,7 +416,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "How recycled PET bottles and local grass are being transformed into a sustainable household product that empowers women in Bulawayo.",
     content: "",
-    image: "/images/gallery/makingbroom.jpg.jpg",
+    image: "/images/gallery/makingbroom.jpg",
     date: "2024-03-15",
     author: "Sinqobile Ndlovu",
     category: "Success Stories",
@@ -429,7 +429,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Exploring how young Zimbabweans are finding opportunity and purpose through green entrepreneurship and the circular economy.",
     content: "",
-    image: "/images/gallery/trainingphoto.jpg.jpg",
+    image: "/images/gallery/trainingphoto.jpg",
     date: "2024-02-28",
     author: "Sinqobile Ndlovu",
     category: "Green Economy",
@@ -442,7 +442,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Our annual schools competition is back, challenging students to innovate with waste and discover the value in what we discard.",
     content: "",
-    image: "/images/gallery/girlpickinglitter.jpg.jpg",
+    image: "/images/gallery/girlpickinglitter.jpg",
     date: "2024-01-20",
     author: "Wezesha Team",
     category: "Events",
