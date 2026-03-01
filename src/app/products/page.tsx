@@ -24,7 +24,7 @@ export default function ProductsPage() {
         {/* Background Image */}
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(/images/gallery/bottledesigns.jpg.jpeg)' }}
+          style={{ backgroundImage: 'url(/images/gallery/bottledesigns.jpg)' }}
         />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-green-darker/80" />
@@ -94,7 +94,7 @@ export default function ProductsPage() {
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="absolute inset-0 w-full h-full object-cover"
+                      className={`absolute inset-0 w-full h-full ${product.id === "standalone-lampshade" ? "object-contain p-4" : "object-cover"}`}
                     />
                     {product.featured && (
                       <div className="absolute top-3 left-3">
