@@ -232,19 +232,6 @@ export const products: Product[] = [
       "Women and Youth made. Repurposes paper and metal waste into premium décor.",
   },
   {
-    id: "upcycled-mirrors",
-    name: "Upcycled Mirrors",
-    description:
-      "Striking mirrors with frames crafted from upcycled metal and paper waste. Each mirror is a conversation piece that blends sustainability with style — proof that waste can become something beautiful.",
-    shortDescription:
-      "Designer mirrors with upcycled metal and paper waste frames.",
-    price: "Contact for pricing",
-    image: "/images/gallery/productsposter.jpg",
-    category: "Interior Décor",
-    impact:
-      "Repurposes metal and paper waste into premium interior décor pieces.",
-  },
-  {
     id: "art-supplies",
     name: "Upcycled Art Supplies",
     description:
@@ -288,16 +275,6 @@ export const products: Product[] = [
     shortDescription:
       "Durable bin liners produced through sustainable recycling.",
     image: "/images/products/bin-liners.jpg",
-    category: "Waste Management",
-  },
-  {
-    id: "refuse-bins",
-    name: "Refuse Bins",
-    description:
-      "Sturdy refuse bins designed for community and household waste collection. Made with sustainability in mind, supporting proper waste segregation and management.",
-    shortDescription:
-      "Sturdy refuse bins for community and household waste collection.",
-    image: "/images/products/refusebins.jpg",
     category: "Waste Management",
   },
 ];
