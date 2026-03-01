@@ -147,7 +147,7 @@ export const products: Product[] = [
     shortDescription:
       "Handcrafted eco-friendly broom made from recycled PET bottles and local grass.",
     price: "Contact for pricing",
-    image: "/images/gallery/boomd2.jpg",
+    image: "/images/products/boomd2.jpg",
     category: "Home & Lifestyle",
     featured: true,
     impact:
