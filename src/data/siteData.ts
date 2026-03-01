@@ -147,9 +147,22 @@ export const products: Product[] = [
     shortDescription:
       "Handcrafted eco-friendly broom made from recycled PET bottles and local grass.",
     price: "Contact for pricing",
-    image: "/images/gallery/boom.jpg.jpg",
+    image: "/images/products/ecobroom.jpg",
     category: "Home & Lifestyle",
     featured: true,
+    impact:
+      "Each broom diverts approximately 15 PET bottles from landfills and supports a woman artisan.",
+  },
+  {
+    id: "eco-broom-narrow-wide",
+    name: "Eco-Broom (Narrow & Wide)",
+    description:
+      "Available in narrow and wide variants, our Eco-Brooms are designed to suit every surface and sweeping need. Handcrafted from recycled PET bottles and locally sourced grass — built to last, gentle on surfaces, and kind to the planet.",
+    shortDescription:
+      "Eco-Broom in narrow and wide variants — recycled PET bottles and local grass.",
+    price: "Contact for pricing",
+    image: "/images/products/ecobroomnarrowwide.jpg",
+    category: "Home & Lifestyle",
     impact:
       "Each broom diverts approximately 15 PET bottles from landfills and supports a woman artisan.",
   },
@@ -161,10 +174,36 @@ export const products: Product[] = [
     shortDescription:
       "Handcrafted cushions and soft furnishings made from upcycled PET waste.",
     price: "Contact for pricing",
-    image: "/images/gallery/wese.jpg",
+    image: "/images/products/DecorativeCushions.jpg",
     category: "Home & Lifestyle",
     impact:
       "60-150 PET plastic bottles diverted per item. Women and Youth made. 100% Eco-friendly.",
+  },
+  {
+    id: "eco-pouf-medium",
+    name: "Eco Pouf (Medium)",
+    description:
+      "Our medium-sized Eco Pouf is a stylish, sustainable seating solution handcrafted from upcycled PET plastic waste. Perfect for living rooms, kids' spaces, and cosy corners. Made to order — functional, eco-friendly, and beautifully designed.",
+    shortDescription:
+      "Medium eco pouf handcrafted from upcycled PET plastic — stylish and sustainable.",
+    price: "Contact for pricing",
+    image: "/images/products/ecopoufmedium.jpg",
+    category: "Home & Lifestyle",
+    impact:
+      "60-100 PET plastic bottles diverted per item. Women and Youth made. 100% Eco-friendly.",
+  },
+  {
+    id: "eco-pouf-large",
+    name: "Eco Pouf (Large)",
+    description:
+      "Our large Eco Pouf makes a bold statement in any space — handcrafted from upcycled PET plastic waste and built for comfort and durability. Made to order in a range of colours and finishes to suit your interior.",
+    shortDescription:
+      "Large eco pouf from upcycled PET plastic — bold, comfortable, and eco-friendly.",
+    price: "Contact for pricing",
+    image: "/images/products/ecopouflarge.jpg",
+    category: "Home & Lifestyle",
+    impact:
+      "100-150 PET plastic bottles diverted per item. Women and Youth made. 100% Eco-friendly.",
   },
   {
     id: "designer-lamps",
@@ -174,10 +213,23 @@ export const products: Product[] = [
     shortDescription:
       "Unique lamps and lamp shades from upcycled metal and paper waste.",
     price: "Contact for pricing",
-    image: "/images/gallery/bottledesigns.jpg.jpeg",
+    image: "/images/products/LampShades.jpg",
     category: "Interior Décor",
     impact:
       "Women and Youth made. Made from recyclable materials.",
+  },
+  {
+    id: "standalone-lampshade",
+    name: "Standalone Lamp Shade",
+    description:
+      "A striking standalone lamp shade skilfully crafted from upcycled paper and metal waste. Designed to add warmth and character to any room while keeping waste out of the landfill. Each piece is uniquely handmade.",
+    shortDescription:
+      "Standalone lamp shade handcrafted from upcycled paper and metal waste.",
+    price: "Contact for pricing",
+    image: "/images/products/standalonelampshade.jpg",
+    category: "Interior Décor",
+    impact:
+      "Women and Youth made. Repurposes paper and metal waste into premium décor.",
   },
   {
     id: "upcycled-mirrors",
@@ -187,7 +239,7 @@ export const products: Product[] = [
     shortDescription:
       "Designer mirrors with upcycled metal and paper waste frames.",
     price: "Contact for pricing",
-    image: "/images/gallery/productsposter.jpg.jpg",
+    image: "/images/gallery/productsposter.jpg",
     category: "Interior Décor",
     impact:
       "Repurposes metal and paper waste into premium interior décor pieces.",
@@ -200,7 +252,7 @@ export const products: Product[] = [
     shortDescription:
       "Art supplies crafted from upcycled waste — creativity meets sustainability.",
     price: "Contact for pricing",
-    image: "/images/gallery/crafting.jpg.jpg",
+    image: "/images/products/crafting.jpg",
     category: "Creative & Educational",
     impact:
       "Transforms waste into creative tools that inspire young people to think sustainably.",
@@ -213,7 +265,7 @@ export const products: Product[] = [
     shortDescription:
       "Educational board game teaching climate literacy and green economy principles.",
     price: "Contact for pricing",
-    image: "/images/gallery/trainingpic.jpg.jpg",
+    image: "/images/products/trainingpic.jpg",
     category: "Creative & Educational",
     impact:
       "Builds environmental awareness and climate literacy in schools and communities.",
@@ -225,7 +277,7 @@ export const products: Product[] = [
       "A range of practical household items made from recycled plastic waste. These products demonstrate the value locked within discarded materials and showcase the potential of circular economy principles.",
     shortDescription:
       "Practical household items made from recycled plastic waste.",
-    image: "/images/products/plasticware.jpg",
+    image: "/images/products/RecycledPlasticware.jpg",
     category: "Home & Lifestyle",
   },
   {
